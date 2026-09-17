@@ -61,6 +61,16 @@ make verify
 
 The tests cover strict candidate matching, malformed-output handling, family-safe splitting, evidence validation, binary state collapse, and prompt-contract consistency.
 
+The schema regression tests also reject manuscript state-label aliases, duplicates,
+and omissions. If the separately supplied manuscript source is available, check it with:
+
+```bash
+PYTHONPATH=src python3 src/check_manuscript_schema.py /path/to/main.tex
+```
+
+The public experiment repository does not include the manuscript. Its local-source
+integration test is skipped when that source is absent; the schema unit tests still run.
+
 Generate the frozen extension design and CPU baselines:
 
 ```bash
