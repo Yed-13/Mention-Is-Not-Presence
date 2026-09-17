@@ -1,0 +1,54 @@
+{
+  "task": "external_binary_shot_visibility",
+  "reference_tier": "vistorybench_derived_mit",
+  "n_scenes": 77,
+  "n_candidates": 154,
+  "n_families": 48,
+  "accuracy": 0.8311688311688312,
+  "macro_f1": 0.8324793062672446,
+  "output_valid_scene_rate": 0.987012987012987,
+  "schema_valid_scene_rate": 0.987012987012987,
+  "family_exact_match": 0.5416666666666666,
+  "per_label": {
+    "visible": {
+      "precision": 0.76,
+      "recall": 0.987012987012987,
+      "f1": 0.8587570621468925
+    },
+    "not_visible": {
+      "precision": 1.0,
+      "recall": 0.6753246753246753,
+      "f1": 0.8062015503875969
+    }
+  },
+  "confusion": {
+    "visible": {
+      "visible": 76,
+      "not_visible": 0,
+      "missing": 1
+    },
+    "not_visible": {
+      "visible": 24,
+      "not_visible": 52,
+      "missing": 1
+    }
+  },
+  "raw_predicted_state_counts": {
+    "audible_only": 8,
+    "depicted": 5,
+    "referenced_only": 35,
+    "uncertain": 5,
+    "visible": 101
+  },
+  "validation_errors": [
+    {
+      "scene_id": "VIS_46_011",
+      "candidate_id": "VIS_612_011_N",
+      "error": "invalid_candidate_or_state"
+    },
+    {
+      "scene_id": "VIS_46_011",
+      "error": "candidate_set_mismatch"
+    }
+  ]
+}

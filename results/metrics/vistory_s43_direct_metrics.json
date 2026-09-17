@@ -1,0 +1,132 @@
+{
+  "task": "external_binary_shot_visibility",
+  "reference_tier": "vistorybench_derived_mit",
+  "n_scenes": 77,
+  "n_candidates": 154,
+  "n_families": 48,
+  "accuracy": 0.7857142857142857,
+  "macro_f1": 0.8335246842709529,
+  "output_valid_scene_rate": 0.8831168831168831,
+  "schema_valid_scene_rate": 0.8831168831168831,
+  "family_exact_match": 0.5416666666666666,
+  "per_label": {
+    "visible": {
+      "precision": 0.8354430379746836,
+      "recall": 0.8571428571428571,
+      "f1": 0.846153846153846
+    },
+    "not_visible": {
+      "precision": 0.9649122807017544,
+      "recall": 0.7142857142857143,
+      "f1": 0.8208955223880597
+    }
+  },
+  "confusion": {
+    "visible": {
+      "visible": 66,
+      "not_visible": 2,
+      "missing": 9
+    },
+    "not_visible": {
+      "visible": 13,
+      "not_visible": 55,
+      "missing": 9
+    }
+  },
+  "raw_predicted_state_counts": {
+    "audible_only": 1,
+    "depicted": 14,
+    "referenced_only": 48,
+    "visible": 103
+  },
+  "validation_errors": [
+    {
+      "scene_id": "VIS_04_009",
+      "candidate_id": "VIS_04_009_S",
+      "error": "invalid_candidate_or_state"
+    },
+    {
+      "scene_id": "VIS_08_017",
+      "candidate_id": "VIS_08_017_E",
+      "error": "invalid_candidate_or_state"
+    },
+    {
+      "scene_id": "VIS_16_023",
+      "candidate_id": "VIS_16_023_陈思涵",
+      "error": "invalid_candidate_or_state"
+    },
+    {
+      "scene_id": "VIS_16_023",
+      "candidate_id": "VIS_16_023_父亲",
+      "error": "invalid_candidate_or_state"
+    },
+    {
+      "scene_id": "VIS_23_004",
+      "candidate_id": "VIS_23_004_X",
+      "error": "invalid_candidate_or_state"
+    },
+    {
+      "scene_id": "VIS_23_004",
+      "candidate_id": "VIS_23_004_S",
+      "error": "invalid_candidate_or_state"
+    },
+    {
+      "scene_id": "VIS_23_004",
+      "candidate_id": "VIS_23_004_F",
+      "error": "invalid_candidate_or_state"
+    },
+    {
+      "scene_id": "VIS_23_004",
+      "candidate_id": "VIS_23_004_C",
+      "error": "invalid_candidate_or_state"
+    },
+    {
+      "scene_id": "VIS_23_004",
+      "candidate_id": "VIS_23_004_Y",
+      "error": "invalid_candidate_or_state"
+    },
+    {
+      "scene_id": "VIS_23_004",
+      "error": "candidate_set_mismatch"
+    },
+    {
+      "scene_id": "VIS_29_014",
+      "candidate_id": "VIS_29_014_V",
+      "error": "invalid_candidate_or_state"
+    },
+    {
+      "scene_id": "VIS_29_014",
+      "candidate_id": "VIS_29_014_V",
+      "error": "invalid_candidate_or_state"
+    },
+    {
+      "scene_id": "VIS_59_013",
+      "candidate_id": "VIS_59_013_J",
+      "error": "invalid_candidate_or_state"
+    },
+    {
+      "scene_id": "VIS_59_013",
+      "candidate_id": "VIS_59_013_T",
+      "error": "invalid_candidate_or_state"
+    },
+    {
+      "scene_id": "VIS_59_013",
+      "error": "candidate_set_mismatch"
+    },
+    {
+      "scene_id": "VIS_61_004",
+      "candidate_id": "VIS_61_004_L",
+      "error": "invalid_candidate_or_state"
+    },
+    {
+      "scene_id": "VIS_73_006",
+      "candidate_id": "VIS_73_006_S",
+      "error": "invalid_candidate_or_state"
+    },
+    {
+      "scene_id": "VIS_73_006",
+      "candidate_id": "VIS_73_006_J",
+      "error": "invalid_candidate_or_state"
+    }
+  ]
+}

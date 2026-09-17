@@ -1,0 +1,87 @@
+{
+  "task": "closed_set_scene_realization_state",
+  "reference_tier": "programmatic_synthetic_reference",
+  "n_candidates": 220,
+  "accuracy": 0.45,
+  "macro_f1": 0.5116517495565877,
+  "schema_valid_scene_rate": 0.925,
+  "malformed_or_missing_scene_rate": 0.07499999999999996,
+  "evidence_exact_match": 0.07727272727272727,
+  "evidence_overlap_recall": 0.07727272727272727,
+  "per_label": {
+    "audible_only": {
+      "precision": 0.14285714285714285,
+      "recall": 0.5,
+      "f1": 0.22222222222222224,
+      "support": 8
+    },
+    "depicted": {
+      "precision": 0.05405405405405406,
+      "recall": 0.5,
+      "f1": 0.0975609756097561,
+      "support": 8
+    },
+    "referenced_only": {
+      "precision": 0.7575757575757576,
+      "recall": 0.8928571428571429,
+      "f1": 0.819672131147541,
+      "support": 28
+    },
+    "uncertain": {
+      "precision": 0.8,
+      "recall": 1.0,
+      "f1": 0.888888888888889,
+      "support": 4
+    },
+    "visible": {
+      "precision": 1.0,
+      "recall": 0.36046511627906974,
+      "f1": 0.5299145299145299,
+      "support": 172
+    }
+  },
+  "confusion": {
+    "audible_only": {
+      "audible_only": 4,
+      "depicted": 0,
+      "referenced_only": 0,
+      "uncertain": 0,
+      "visible": 0,
+      "missing": 4
+    },
+    "depicted": {
+      "audible_only": 0,
+      "depicted": 4,
+      "referenced_only": 2,
+      "uncertain": 1,
+      "visible": 0,
+      "missing": 1
+    },
+    "referenced_only": {
+      "audible_only": 2,
+      "depicted": 0,
+      "referenced_only": 25,
+      "uncertain": 0,
+      "visible": 0,
+      "missing": 1
+    },
+    "uncertain": {
+      "audible_only": 0,
+      "depicted": 0,
+      "referenced_only": 0,
+      "uncertain": 4,
+      "visible": 0,
+      "missing": 0
+    },
+    "visible": {
+      "audible_only": 22,
+      "depicted": 70,
+      "referenced_only": 6,
+      "uncertain": 0,
+      "visible": 62,
+      "missing": 12
+    }
+  },
+  "family_exact_match": 0.0,
+  "validation_errors": []
+}

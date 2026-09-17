@@ -1,0 +1,145 @@
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/398 [00:00<?, ?it/s]Loading weights:   0%|          | 1/398 [00:00<00:53,  7.36it/s]Loading weights:   3%|▎         | 11/398 [00:00<00:07, 54.77it/s]Loading weights:   9%|▉         | 37/398 [00:00<00:02, 139.28it/s]Loading weights:  17%|█▋        | 66/398 [00:00<00:01, 193.51it/s]Loading weights:  23%|██▎       | 92/398 [00:00<00:01, 214.17it/s]Loading weights:  30%|███       | 121/398 [00:00<00:01, 235.84it/s]Loading weights:  37%|███▋      | 147/398 [00:00<00:01, 239.36it/s]Loading weights:  44%|████▍     | 177/398 [00:00<00:00, 257.06it/s]Loading weights:  51%|█████     | 203/398 [00:00<00:00, 250.22it/s]Loading weights:  59%|█████▉    | 234/398 [00:01<00:00, 261.33it/s]Loading weights:  66%|██████▌   | 261/398 [00:01<00:00, 259.16it/s]Loading weights:  72%|███████▏  | 287/398 [00:01<00:00, 250.69it/s]Loading weights:  79%|███████▊  | 313/398 [00:01<00:00, 180.80it/s]Loading weights:  84%|████████▍ | 334/398 [00:01<00:00, 152.62it/s]Loading weights:  88%|████████▊ | 352/398 [00:01<00:00, 129.86it/s]Loading weights:  92%|█████████▏| 367/398 [00:02<00:00, 116.83it/s]Loading weights:  96%|█████████▌| 381/398 [00:02<00:00, 116.85it/s]Loading weights:  99%|█████████▉| 394/398 [00:02<00:00, 105.46it/s]Loading weights: 100%|██████████| 398/398 [00:02<00:00, 165.12it/s]
+1 VIS_03_010 ok
+2 VIS_04_006 ok
+3 VIS_04_009 ok
+4 VIS_05_007 ok
+5 VIS_08_017 ok
+6 VIS_08_019 ok
+7 VIS_09_013 ok
+8 VIS_09_005 ok
+9 VIS_10_014 ok
+10 VIS_10_011 ok
+11 VIS_11_008 ok
+12 VIS_11_011 ok
+13 VIS_12_014 ok
+14 VIS_12_013 ok
+15 VIS_13_011 ok
+16 VIS_14_016 ok
+17 VIS_14_012 ok
+18 VIS_15_004 ok
+19 VIS_15_002 ok
+20 VIS_16_003 ok
+21 VIS_16_023 ok
+22 VIS_17_011 ok
+23 VIS_17_005 ok
+24 VIS_20_022 ok
+25 VIS_20_017 ok
+26 VIS_23_003 ok
+27 VIS_23_004 ok
+28 VIS_25_007 ok
+29 VIS_25_005 ok
+30 VIS_26_007 ok
+31 VIS_26_004 ok
+32 VIS_29_003 ok
+33 VIS_29_014 ok
+34 VIS_31_011 ok
+35 VIS_34_006 ok
+36 VIS_35_013 ok
+37 VIS_36_002 ok
+38 VIS_37_009 ok
+39 VIS_37_001 ok
+40 VIS_39_012 ok
+41 VIS_39_022 ok
+42 VIS_40_008 ok
+43 VIS_43_001 ok
+44 VIS_46_011 ok
+45 VIS_46_019 ok
+46 VIS_47_008 ok
+47 VIS_49_003 ok
+48 VIS_50_018 ok
+49 VIS_50_004 ok
+50 VIS_52_018 ok
+51 VIS_53_005 ok
+52 VIS_55_005 ok
+53 VIS_56_015 ok
+54 VIS_56_007 ok
+55 VIS_57_004 ok
+56 VIS_58_002 ok
+57 VIS_58_009 ok
+58 VIS_59_001 ok
+59 VIS_59_013 ok
+60 VIS_61_004 ok
+61 VIS_62_013 ok
+62 VIS_63_017 ok
+63 VIS_63_003 ok
+64 VIS_64_003 ok
+65 VIS_64_002 ok
+66 VIS_66_015 ok
+67 VIS_66_016 ok
+68 VIS_69_004 ok
+69 VIS_70_022 ok
+70 VIS_71_008 ok
+71 VIS_71_011 ok
+72 VIS_72_007 ok
+73 VIS_72_008 ok
+74 VIS_73_006 ok
+75 VIS_73_010 ok
+76 VIS_77_013 ok
+77 VIS_77_010 ok
+{
+  "task": "external_binary_shot_visibility",
+  "reference_tier": "vistorybench_derived_mit",
+  "n_scenes": 77,
+  "n_candidates": 154,
+  "n_families": 48,
+  "accuracy": 0.7662337662337663,
+  "macro_f1": 0.775793025871766,
+  "schema_valid_scene_rate": 0.961038961038961,
+  "family_exact_match": 0.3958333333333333,
+  "per_label": {
+    "visible": {
+      "precision": 0.7244897959183674,
+      "recall": 0.922077922077922,
+      "f1": 0.8114285714285714
+    },
+    "not_visible": {
+      "precision": 0.94,
+      "recall": 0.6103896103896104,
+      "f1": 0.7401574803149605
+    }
+  },
+  "confusion": {
+    "visible": {
+      "visible": 71,
+      "not_visible": 3,
+      "missing": 3
+    },
+    "not_visible": {
+      "visible": 27,
+      "not_visible": 47,
+      "missing": 3
+    }
+  },
+  "raw_predicted_state_counts": {
+    "audible_only": 2,
+    "depicted": 5,
+    "referenced_only": 44,
+    "visible": 104
+  },
+  "validation_errors": [
+    {
+      "scene_id": "VIS_04_009",
+      "candidate_id": "VIS_04_009_X",
+      "error": "invalid_candidate_or_state"
+    },
+    {
+      "scene_id": "VIS_23_004",
+      "candidate_id": "VIS_23_004_X",
+      "error": "invalid_candidate_or_state"
+    },
+    {
+      "scene_id": "VIS_23_004",
+      "error": "candidate_set_mismatch"
+    },
+    {
+      "scene_id": "VIS_72_008",
+      "candidate_id": "VIS_72_008_L",
+      "error": "invalid_candidate_or_state"
+    },
+    {
+      "scene_id": "VIS_72_008",
+      "error": "candidate_set_mismatch"
+    }
+  ]
+}

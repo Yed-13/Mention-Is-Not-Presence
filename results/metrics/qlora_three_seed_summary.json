@@ -1,0 +1,80 @@
+{
+  "direct": {
+    "seeds": [
+      {
+        "accuracy": 1.0,
+        "macro_f1": 1.0,
+        "schema_valid_scene_rate": 1.0,
+        "evidence_exact_match": 1.0,
+        "family_exact_match": 1.0
+      },
+      {
+        "accuracy": 1.0,
+        "macro_f1": 1.0,
+        "schema_valid_scene_rate": 1.0,
+        "evidence_exact_match": 1.0,
+        "family_exact_match": 1.0
+      },
+      {
+        "accuracy": 1.0,
+        "macro_f1": 1.0,
+        "schema_valid_scene_rate": 1.0,
+        "evidence_exact_match": 1.0,
+        "family_exact_match": 1.0
+      }
+    ],
+    "mean": {
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "schema_valid_scene_rate": 1.0,
+      "evidence_exact_match": 1.0,
+      "family_exact_match": 1.0
+    },
+    "sd": {
+      "accuracy": 0.0,
+      "macro_f1": 0.0,
+      "schema_valid_scene_rate": 0.0,
+      "evidence_exact_match": 0.0,
+      "family_exact_match": 0.0
+    }
+  },
+  "guideline": {
+    "seeds": [
+      {
+        "accuracy": 0.9636363636363636,
+        "macro_f1": 0.902262443438914,
+        "schema_valid_scene_rate": 1.0,
+        "evidence_exact_match": 0.9818181818181818,
+        "family_exact_match": 0.8
+      },
+      {
+        "accuracy": 0.9272727272727272,
+        "macro_f1": 0.8173873185637891,
+        "schema_valid_scene_rate": 1.0,
+        "evidence_exact_match": 0.990909090909091,
+        "family_exact_match": 0.6
+      },
+      {
+        "accuracy": 0.9545454545454546,
+        "macro_f1": 0.8791016042780748,
+        "schema_valid_scene_rate": 1.0,
+        "evidence_exact_match": 0.9818181818181818,
+        "family_exact_match": 0.75
+      }
+    ],
+    "mean": {
+      "accuracy": 0.9484848484848485,
+      "macro_f1": 0.866250455426926,
+      "schema_valid_scene_rate": 1.0,
+      "evidence_exact_match": 0.9848484848484849,
+      "family_exact_match": 0.7166666666666667
+    },
+    "sd": {
+      "accuracy": 0.01892423635878304,
+      "macro_f1": 0.0438726649035342,
+      "schema_valid_scene_rate": 0.0,
+      "evidence_exact_match": 0.005248638810814814,
+      "family_exact_match": 0.10408329997330666
+    }
+  }
+}

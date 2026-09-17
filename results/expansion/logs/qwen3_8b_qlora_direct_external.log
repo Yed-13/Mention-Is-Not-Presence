@@ -1,0 +1,121 @@
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights:   0%|          | 1/399 [00:00<01:16,  5.19it/s]Loading weights:   1%|          | 2/399 [00:00<01:17,  5.12it/s]Loading weights:   2%|▏         | 6/399 [00:00<00:25, 15.21it/s]Loading weights:   7%|▋         | 27/399 [00:00<00:05, 69.65it/s]Loading weights:  12%|█▏        | 48/399 [00:00<00:03, 106.28it/s]Loading weights:  16%|█▌        | 64/399 [00:00<00:02, 120.84it/s]Loading weights:  20%|██        | 81/399 [00:00<00:02, 134.88it/s]Loading weights:  24%|██▍       | 97/399 [00:01<00:02, 141.97it/s]Loading weights:  29%|██▊       | 114/399 [00:01<00:01, 146.20it/s]Loading weights:  33%|███▎      | 130/399 [00:01<00:01, 147.30it/s]Loading weights:  37%|███▋      | 148/399 [00:01<00:01, 152.39it/s]Loading weights:  42%|████▏     | 169/399 [00:01<00:01, 162.91it/s]Loading weights:  47%|████▋     | 186/399 [00:01<00:01, 161.80it/s]Loading weights:  51%|█████     | 203/399 [00:01<00:01, 158.67it/s]Loading weights:  56%|█████▌    | 224/399 [00:01<00:01, 165.90it/s]Loading weights:  60%|██████    | 241/399 [00:01<00:00, 165.15it/s]Loading weights:  65%|██████▍   | 258/399 [00:02<00:00, 164.78it/s]Loading weights:  70%|██████▉   | 279/399 [00:02<00:00, 173.47it/s]Loading weights:  74%|███████▍  | 297/399 [00:02<00:00, 172.34it/s]Loading weights:  79%|███████▉  | 315/399 [00:02<00:00, 156.50it/s]Loading weights:  84%|████████▎ | 334/399 [00:02<00:00, 165.37it/s]Loading weights:  88%|████████▊ | 351/399 [00:02<00:00, 132.50it/s]Loading weights:  92%|█████████▏| 366/399 [00:02<00:00, 110.98it/s]Loading weights:  95%|█████████▍| 379/399 [00:03<00:00, 83.16it/s] Loading weights:  98%|█████████▊| 390/399 [00:03<00:00, 84.05it/s]Loading weights: 100%|██████████| 399/399 [00:03<00:00, 119.00it/s]
+1 VIS_03_010 ok
+2 VIS_04_006 ok
+3 VIS_04_009 ok
+4 VIS_05_007 ok
+5 VIS_08_017 ok
+6 VIS_08_019 ok
+7 VIS_09_013 ok
+8 VIS_09_005 ok
+9 VIS_10_014 ok
+10 VIS_10_011 ok
+11 VIS_11_008 ok
+12 VIS_11_011 ok
+13 VIS_12_014 ok
+14 VIS_12_013 ok
+15 VIS_13_011 ok
+16 VIS_14_016 ok
+17 VIS_14_012 ok
+18 VIS_15_004 ok
+19 VIS_15_002 ok
+20 VIS_16_003 ok
+21 VIS_16_023 ok
+22 VIS_17_011 ok
+23 VIS_17_005 ok
+24 VIS_20_022 ok
+25 VIS_20_017 ok
+26 VIS_23_003 ok
+27 VIS_23_004 ok
+28 VIS_25_007 ok
+29 VIS_25_005 ok
+30 VIS_26_007 ok
+31 VIS_26_004 ok
+32 VIS_29_003 ok
+33 VIS_29_014 ok
+34 VIS_31_011 ok
+35 VIS_34_006 ok
+36 VIS_35_013 ok
+37 VIS_36_002 ok
+38 VIS_37_009 ok
+39 VIS_37_001 ok
+40 VIS_39_012 ok
+41 VIS_39_022 ok
+42 VIS_40_008 ok
+43 VIS_43_001 ok
+44 VIS_46_011 ok
+45 VIS_46_019 ok
+46 VIS_47_008 ok
+47 VIS_49_003 ok
+48 VIS_50_018 ok
+49 VIS_50_004 ok
+50 VIS_52_018 ok
+51 VIS_53_005 ok
+52 VIS_55_005 ok
+53 VIS_56_015 ok
+54 VIS_56_007 malformed
+55 VIS_57_004 ok
+56 VIS_58_002 ok
+57 VIS_58_009 ok
+58 VIS_59_001 ok
+59 VIS_59_013 ok
+60 VIS_61_004 ok
+61 VIS_62_013 malformed
+62 VIS_63_017 ok
+63 VIS_63_003 ok
+64 VIS_64_003 ok
+65 VIS_64_002 ok
+66 VIS_66_015 ok
+67 VIS_66_016 ok
+68 VIS_69_004 ok
+69 VIS_70_022 ok
+70 VIS_71_008 ok
+71 VIS_71_011 ok
+72 VIS_72_007 ok
+73 VIS_72_008 ok
+74 VIS_73_006 ok
+75 VIS_73_010 ok
+76 VIS_77_013 ok
+77 VIS_77_010 ok
+{
+  "task": "external_binary_shot_visibility",
+  "reference_tier": "vistorybench_derived_mit",
+  "n_scenes": 77,
+  "n_candidates": 154,
+  "n_families": 48,
+  "accuracy": 0.8636363636363636,
+  "macro_f1": 0.8740789186832353,
+  "schema_valid_scene_rate": 0.974025974025974,
+  "family_exact_match": 0.6458333333333334,
+  "per_label": {
+    "visible": {
+      "precision": 0.8295454545454546,
+      "recall": 0.948051948051948,
+      "f1": 0.8848484848484849
+    },
+    "not_visible": {
+      "precision": 0.967741935483871,
+      "recall": 0.7792207792207793,
+      "f1": 0.8633093525179857
+    }
+  },
+  "confusion": {
+    "visible": {
+      "visible": 73,
+      "not_visible": 2,
+      "missing": 2
+    },
+    "not_visible": {
+      "visible": 15,
+      "not_visible": 60,
+      "missing": 2
+    }
+  },
+  "raw_predicted_state_counts": {
+    "audible_only": 1,
+    "depicted": 20,
+    "referenced_only": 41,
+    "visible": 88
+  },
+  "validation_errors": []
+}

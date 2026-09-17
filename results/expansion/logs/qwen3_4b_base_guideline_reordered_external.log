@@ -1,0 +1,121 @@
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/398 [00:00<?, ?it/s]Loading weights:   0%|          | 1/398 [00:00<01:01,  6.45it/s]Loading weights:   2%|▏         | 9/398 [00:00<00:09, 40.78it/s]Loading weights:   8%|▊         | 31/398 [00:00<00:03, 110.50it/s]Loading weights:  13%|█▎        | 53/398 [00:00<00:02, 147.21it/s]Loading weights:  19%|█▉        | 75/398 [00:00<00:01, 171.57it/s]Loading weights:  24%|██▍       | 97/398 [00:00<00:01, 185.61it/s]Loading weights:  30%|██▉       | 119/398 [00:00<00:01, 194.03it/s]Loading weights:  35%|███▌      | 141/398 [00:00<00:01, 200.72it/s]Loading weights:  41%|████      | 163/398 [00:00<00:01, 204.88it/s]Loading weights:  46%|████▌     | 184/398 [00:01<00:01, 206.02it/s]Loading weights:  52%|█████▏    | 205/398 [00:01<00:00, 206.32it/s]Loading weights:  57%|█████▋    | 226/398 [00:01<00:00, 206.05it/s]Loading weights:  62%|██████▏   | 247/398 [00:01<00:00, 204.56it/s]Loading weights:  68%|██████▊   | 269/398 [00:01<00:00, 205.52it/s]Loading weights:  73%|███████▎  | 291/398 [00:01<00:00, 207.62it/s]Loading weights:  79%|███████▊  | 313/398 [00:01<00:00, 208.17it/s]Loading weights:  84%|████████▍ | 335/398 [00:01<00:00, 208.34it/s]Loading weights:  90%|████████▉ | 357/398 [00:01<00:00, 207.61it/s]Loading weights:  95%|█████████▌| 379/398 [00:02<00:00, 210.80it/s]Loading weights: 100%|██████████| 398/398 [00:02<00:00, 191.30it/s]
+1 VIS_03_010 ok
+2 VIS_04_006 ok
+3 VIS_04_009 ok
+4 VIS_05_007 ok
+5 VIS_08_017 ok
+6 VIS_08_019 ok
+7 VIS_09_013 ok
+8 VIS_09_005 ok
+9 VIS_10_014 ok
+10 VIS_10_011 ok
+11 VIS_11_008 ok
+12 VIS_11_011 ok
+13 VIS_12_014 ok
+14 VIS_12_013 ok
+15 VIS_13_011 ok
+16 VIS_14_016 ok
+17 VIS_14_012 ok
+18 VIS_15_004 ok
+19 VIS_15_002 ok
+20 VIS_16_003 ok
+21 VIS_16_023 ok
+22 VIS_17_011 ok
+23 VIS_17_005 ok
+24 VIS_20_022 ok
+25 VIS_20_017 ok
+26 VIS_23_003 ok
+27 VIS_23_004 ok
+28 VIS_25_007 ok
+29 VIS_25_005 ok
+30 VIS_26_007 ok
+31 VIS_26_004 ok
+32 VIS_29_003 ok
+33 VIS_29_014 ok
+34 VIS_31_011 ok
+35 VIS_34_006 ok
+36 VIS_35_013 ok
+37 VIS_36_002 ok
+38 VIS_37_009 ok
+39 VIS_37_001 ok
+40 VIS_39_012 ok
+41 VIS_39_022 ok
+42 VIS_40_008 ok
+43 VIS_43_001 malformed
+44 VIS_46_011 ok
+45 VIS_46_019 ok
+46 VIS_47_008 ok
+47 VIS_49_003 ok
+48 VIS_50_018 ok
+49 VIS_50_004 ok
+50 VIS_52_018 ok
+51 VIS_53_005 ok
+52 VIS_55_005 ok
+53 VIS_56_015 ok
+54 VIS_56_007 ok
+55 VIS_57_004 ok
+56 VIS_58_002 ok
+57 VIS_58_009 ok
+58 VIS_59_001 ok
+59 VIS_59_013 ok
+60 VIS_61_004 ok
+61 VIS_62_013 ok
+62 VIS_63_017 ok
+63 VIS_63_003 ok
+64 VIS_64_003 ok
+65 VIS_64_002 ok
+66 VIS_66_015 ok
+67 VIS_66_016 ok
+68 VIS_69_004 ok
+69 VIS_70_022 ok
+70 VIS_71_008 ok
+71 VIS_71_011 ok
+72 VIS_72_007 ok
+73 VIS_72_008 ok
+74 VIS_73_006 ok
+75 VIS_73_010 ok
+76 VIS_77_013 ok
+77 VIS_77_010 ok
+{
+  "task": "external_binary_shot_visibility",
+  "reference_tier": "vistorybench_derived_mit",
+  "n_scenes": 77,
+  "n_candidates": 154,
+  "n_families": 48,
+  "accuracy": 0.9545454545454546,
+  "macro_f1": 0.9607826384142173,
+  "schema_valid_scene_rate": 0.987012987012987,
+  "family_exact_match": 0.875,
+  "per_label": {
+    "visible": {
+      "precision": 0.9733333333333334,
+      "recall": 0.948051948051948,
+      "f1": 0.9605263157894737
+    },
+    "not_visible": {
+      "precision": 0.961038961038961,
+      "recall": 0.961038961038961,
+      "f1": 0.961038961038961
+    }
+  },
+  "confusion": {
+    "visible": {
+      "visible": 73,
+      "not_visible": 3,
+      "missing": 1
+    },
+    "not_visible": {
+      "visible": 2,
+      "not_visible": 74,
+      "missing": 1
+    }
+  },
+  "raw_predicted_state_counts": {
+    "depicted": 5,
+    "referenced_only": 71,
+    "uncertain": 1,
+    "visible": 75
+  },
+  "validation_errors": []
+}

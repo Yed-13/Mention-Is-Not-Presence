@@ -1,0 +1,5 @@
+stage=prompt_robustness start=2026-09-17T02:33:43+08:00
+stage=learning_curves start=2026-09-17T02:33:43+08:00
+stage=template_holdout start=2026-09-17T02:33:43+08:00
+stage=qwen3_8b start=2026-09-17T02:33:43+08:00
+stage=complete time=2026-09-17T03:07:11+08:00

@@ -1,0 +1,117 @@
+{
+  "task": "external_binary_shot_visibility",
+  "reference_tier": "vistorybench_derived_mit",
+  "n_scenes": 77,
+  "n_candidates": 154,
+  "n_families": 48,
+  "accuracy": 0.7337662337662337,
+  "macro_f1": 0.7800443458980044,
+  "output_valid_scene_rate": 0.8701298701298701,
+  "schema_valid_scene_rate": 0.8701298701298701,
+  "family_exact_match": 0.4791666666666667,
+  "per_label": {
+    "visible": {
+      "precision": 0.7613636363636364,
+      "recall": 0.8701298701298701,
+      "f1": 0.8121212121212121
+    },
+    "not_visible": {
+      "precision": 1.0,
+      "recall": 0.5974025974025974,
+      "f1": 0.7479674796747967
+    }
+  },
+  "confusion": {
+    "visible": {
+      "visible": 67,
+      "not_visible": 0,
+      "missing": 10
+    },
+    "not_visible": {
+      "visible": 21,
+      "not_visible": 46,
+      "missing": 10
+    }
+  },
+  "raw_predicted_state_counts": {
+    "audible_only": 4,
+    "depicted": 11,
+    "referenced_only": 35,
+    "visible": 113
+  },
+  "validation_errors": [
+    {
+      "scene_id": "VIS_04_009",
+      "candidate_id": "VIS_04_009_S",
+      "error": "invalid_candidate_or_state"
+    },
+    {
+      "scene_id": "VIS_23_004",
+      "candidate_id": "VIS_23_004_X",
+      "error": "invalid_candidate_or_state"
+    },
+    {
+      "scene_id": "VIS_23_004",
+      "candidate_id": "VIS_23_004_S",
+      "error": "invalid_candidate_or_state"
+    },
+    {
+      "scene_id": "VIS_23_004",
+      "error": "candidate_set_mismatch"
+    },
+    {
+      "scene_id": "VIS_40_008",
+      "candidate_id": "VIS_40_008_F",
+      "error": "invalid_candidate_or_state"
+    },
+    {
+      "scene_id": "VIS_40_008",
+      "candidate_id": "VIS_40_008_C",
+      "error": "invalid_candidate_or_state"
+    },
+    {
+      "scene_id": "VIS_59_013",
+      "candidate_id": "VIS_59_013_J",
+      "error": "invalid_candidate_or_state"
+    },
+    {
+      "scene_id": "VIS_59_013",
+      "candidate_id": "VIS_59_013_T",
+      "error": "invalid_candidate_or_state"
+    },
+    {
+      "scene_id": "VIS_59_013",
+      "error": "candidate_set_mismatch"
+    },
+    {
+      "scene_id": "VIS_61_004",
+      "candidate_id": "VIS_61_004_L",
+      "error": "invalid_candidate_or_state"
+    },
+    {
+      "scene_id": "VIS_66_015",
+      "candidate_id": "VIS_66_015_M",
+      "error": "invalid_candidate_or_state"
+    },
+    {
+      "scene_id": "VIS_69_004",
+      "candidate_id": "VIS_69_004_E",
+      "error": "invalid_candidate_or_state"
+    },
+    {
+      "scene_id": "VIS_72_008",
+      "candidate_id": "VIS_72_008_M",
+      "error": "invalid_candidate_or_state"
+    },
+    {
+      "scene_id": "VIS_73_006",
+      "candidate_id": "VIS_73_006_S",
+      "error": "invalid_candidate_or_state"
+    },
+    {
+      "scene_id": "VIS_73_006",
+      "candidate_id": "VIS_73_006_F",
+      "error": "invalid_candidate_or_state"
+    }
+  ]
+}

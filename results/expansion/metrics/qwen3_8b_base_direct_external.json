@@ -1,0 +1,43 @@
+{
+  "task": "external_binary_shot_visibility",
+  "reference_tier": "vistorybench_derived_mit",
+  "n_scenes": 77,
+  "n_candidates": 154,
+  "n_families": 48,
+  "accuracy": 0.7142857142857143,
+  "macro_f1": 0.7234927234927235,
+  "output_valid_scene_rate": 0.974025974025974,
+  "schema_valid_scene_rate": 0.974025974025974,
+  "family_exact_match": 0.3125,
+  "per_label": {
+    "visible": {
+      "precision": 0.7464788732394366,
+      "recall": 0.6883116883116883,
+      "f1": 0.7162162162162162
+    },
+    "not_visible": {
+      "precision": 0.7215189873417721,
+      "recall": 0.7402597402597403,
+      "f1": 0.7307692307692307
+    }
+  },
+  "confusion": {
+    "visible": {
+      "visible": 53,
+      "not_visible": 22,
+      "missing": 2
+    },
+    "not_visible": {
+      "visible": 18,
+      "not_visible": 57,
+      "missing": 2
+    }
+  },
+  "raw_predicted_state_counts": {
+    "audible_only": 1,
+    "depicted": 29,
+    "referenced_only": 49,
+    "visible": 71
+  },
+  "validation_errors": []
+}

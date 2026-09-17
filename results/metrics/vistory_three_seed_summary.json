@@ -1,0 +1,249 @@
+{
+  "reference_tier": "vistorybench_derived_mit",
+  "rule": {
+    "task": "external_binary_shot_visibility",
+    "reference_tier": "vistorybench_derived_mit",
+    "n_scenes": 77,
+    "n_candidates": 154,
+    "n_families": 48,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "output_valid_scene_rate": 1.0,
+    "schema_valid_scene_rate": 1.0,
+    "family_exact_match": 1.0,
+    "per_label": {
+      "visible": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "not_visible": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    },
+    "confusion": {
+      "visible": {
+        "visible": 77,
+        "not_visible": 0,
+        "missing": 0
+      },
+      "not_visible": {
+        "visible": 0,
+        "not_visible": 77,
+        "missing": 0
+      }
+    },
+    "raw_predicted_state_counts": {
+      "referenced_only": 77,
+      "visible": 77
+    },
+    "validation_errors": []
+  },
+  "base": {
+    "direct": {
+      "task": "external_binary_shot_visibility",
+      "reference_tier": "vistorybench_derived_mit",
+      "n_scenes": 77,
+      "n_candidates": 154,
+      "n_families": 48,
+      "accuracy": 0.6038961038961039,
+      "macro_f1": 0.6306818181818181,
+      "output_valid_scene_rate": 0.8571428571428571,
+      "schema_valid_scene_rate": 0.8571428571428571,
+      "family_exact_match": 0.16666666666666666,
+      "per_label": {
+        "visible": {
+          "precision": 0.9090909090909091,
+          "recall": 0.38961038961038963,
+          "f1": 0.5454545454545454
+        },
+        "not_visible": {
+          "precision": 0.6363636363636364,
+          "recall": 0.8181818181818182,
+          "f1": 0.7159090909090909
+        }
+      },
+      "confusion": {
+        "visible": {
+          "visible": 30,
+          "not_visible": 36,
+          "missing": 11
+        },
+        "not_visible": {
+          "visible": 3,
+          "not_visible": 63,
+          "missing": 11
+        }
+      },
+      "raw_predicted_state_counts": {
+        "audible_only": 18,
+        "depicted": 57,
+        "referenced_only": 31,
+        "uncertain": 3,
+        "visible": 36
+      },
+      "validation_errors": [
+        {
+          "scene_id": "VIS_20_022",
+          "candidate_id": "VIS_20_022_V",
+          "error": "invalid_candidate_or_state"
+        },
+        {
+          "scene_id": "VIS_20_022",
+          "candidate_id": "VIS_20_022_N",
+          "error": "invalid_candidate_or_state"
+        },
+        {
+          "scene_id": "VIS_20_022",
+          "candidate_id": "VIS_20_022_V",
+          "error": "invalid_candidate_or_state"
+        },
+        {
+          "scene_id": "VIS_20_022",
+          "candidate_id": "VIS_20_022_N",
+          "error": "invalid_candidate_or_state"
+        },
+        {
+          "scene_id": "VIS_20_022",
+          "candidate_id": "VIS_20_022_V",
+          "error": "invalid_candidate_or_state"
+        },
+        {
+          "scene_id": "VIS_20_022",
+          "candidate_id": "VIS_20_022_N",
+          "error": "invalid_candidate_or_state"
+        },
+        {
+          "scene_id": "VIS_40_008",
+          "candidate_id": "VIS_40_008_O",
+          "error": "invalid_candidate_or_state"
+        },
+        {
+          "scene_id": "VIS_40_008",
+          "candidate_id": "VIS_40_008_P",
+          "error": "invalid_candidate_or_state"
+        },
+        {
+          "scene_id": "VIS_40_008",
+          "candidate_id": "VIS_40_008_Q",
+          "error": "invalid_candidate_or_state"
+        }
+      ]
+    },
+    "guideline": {
+      "task": "external_binary_shot_visibility",
+      "reference_tier": "vistorybench_derived_mit",
+      "n_scenes": 77,
+      "n_candidates": 154,
+      "n_families": 48,
+      "accuracy": 0.9805194805194806,
+      "macro_f1": 0.9805120850381743,
+      "output_valid_scene_rate": 1.0,
+      "schema_valid_scene_rate": 1.0,
+      "family_exact_match": 0.9375,
+      "per_label": {
+        "visible": {
+          "precision": 0.9625,
+          "recall": 1.0,
+          "f1": 0.980891719745223
+        },
+        "not_visible": {
+          "precision": 1.0,
+          "recall": 0.961038961038961,
+          "f1": 0.9801324503311257
+        }
+      },
+      "confusion": {
+        "visible": {
+          "visible": 77,
+          "not_visible": 0,
+          "missing": 0
+        },
+        "not_visible": {
+          "visible": 3,
+          "not_visible": 74,
+          "missing": 0
+        }
+      },
+      "raw_predicted_state_counts": {
+        "audible_only": 22,
+        "depicted": 13,
+        "referenced_only": 39,
+        "visible": 80
+      },
+      "validation_errors": []
+    }
+  },
+  "qlora": {
+    "direct": {
+      "seeds": [
+        {
+          "accuracy": 0.8246753246753247,
+          "macro_f1": 0.8508372770294867,
+          "schema_valid_scene_rate": 0.935064935064935,
+          "family_exact_match": 0.5833333333333334
+        },
+        {
+          "accuracy": 0.7337662337662337,
+          "macro_f1": 0.7800443458980044,
+          "schema_valid_scene_rate": 0.8701298701298701,
+          "family_exact_match": 0.4791666666666667
+        },
+        {
+          "accuracy": 0.7857142857142857,
+          "macro_f1": 0.8335246842709529,
+          "schema_valid_scene_rate": 0.8831168831168831,
+          "family_exact_match": 0.5416666666666666
+        }
+      ],
+      "mean": {
+        "accuracy": 0.7813852813852814,
+        "macro_f1": 0.821468769066148,
+        "schema_valid_scene_rate": 0.8961038961038961,
+        "family_exact_match": 0.5347222222222222
+      },
+      "sd": {
+        "accuracy": 0.045608890704990225,
+        "macro_f1": 0.036904181241639605,
+        "schema_valid_scene_rate": 0.03436040663720249,
+        "family_exact_match": 0.052429405800491324
+      }
+    },
+    "guideline": {
+      "seeds": [
+        {
+          "accuracy": 0.8051948051948052,
+          "macro_f1": 0.8102372034956304,
+          "schema_valid_scene_rate": 0.974025974025974,
+          "family_exact_match": 0.4791666666666667
+        },
+        {
+          "accuracy": 0.8311688311688312,
+          "macro_f1": 0.8324793062672446,
+          "schema_valid_scene_rate": 0.987012987012987,
+          "family_exact_match": 0.5416666666666666
+        },
+        {
+          "accuracy": 0.8311688311688312,
+          "macro_f1": 0.8387267904509284,
+          "schema_valid_scene_rate": 0.974025974025974,
+          "family_exact_match": 0.5416666666666666
+        }
+      ],
+      "mean": {
+        "accuracy": 0.8225108225108225,
+        "macro_f1": 0.8271477667379346,
+        "schema_valid_scene_rate": 0.9783549783549784,
+        "family_exact_match": 0.5208333333333334
+      },
+      "sd": {
+        "accuracy": 0.014996110888042232,
+        "macro_f1": 0.014974415732686128,
+        "schema_valid_scene_rate": 0.007498055444021116,
+        "family_exact_match": 0.036084391824351573
+      }
+    }
+  }
+}

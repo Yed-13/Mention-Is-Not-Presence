@@ -1,0 +1,81 @@
+{
+  "task": "external_binary_shot_visibility",
+  "reference_tier": "vistorybench_derived_mit",
+  "n_scenes": 77,
+  "n_candidates": 154,
+  "n_families": 48,
+  "accuracy": 0.8571428571428571,
+  "macro_f1": 0.8796576929934035,
+  "output_valid_scene_rate": 0.948051948051948,
+  "schema_valid_scene_rate": 0.948051948051948,
+  "family_exact_match": 0.6666666666666666,
+  "per_label": {
+    "visible": {
+      "precision": 0.8641975308641975,
+      "recall": 0.9090909090909091,
+      "f1": 0.8860759493670887
+    },
+    "not_visible": {
+      "precision": 0.9538461538461539,
+      "recall": 0.8051948051948052,
+      "f1": 0.8732394366197184
+    }
+  },
+  "confusion": {
+    "visible": {
+      "visible": 70,
+      "not_visible": 3,
+      "missing": 4
+    },
+    "not_visible": {
+      "visible": 11,
+      "not_visible": 62,
+      "missing": 4
+    }
+  },
+  "raw_predicted_state_counts": {
+    "audible_only": 2,
+    "depicted": 18,
+    "referenced_only": 48,
+    "visible": 88
+  },
+  "validation_errors": [
+    {
+      "scene_id": "VIS_23_004",
+      "candidate_id": "VIS_23_004_X",
+      "error": "invalid_candidate_or_state"
+    },
+    {
+      "scene_id": "VIS_23_004",
+      "candidate_id": "VIS_23_004_S",
+      "error": "invalid_candidate_or_state"
+    },
+    {
+      "scene_id": "VIS_23_004",
+      "error": "candidate_set_mismatch"
+    },
+    {
+      "scene_id": "VIS_46_011",
+      "candidate_id": "VIS_612_011_N",
+      "error": "invalid_candidate_or_state"
+    },
+    {
+      "scene_id": "VIS_46_011",
+      "error": "candidate_set_mismatch"
+    },
+    {
+      "scene_id": "VIS_59_013",
+      "candidate_id": "VIS_59_013_T",
+      "error": "invalid_candidate_or_state"
+    },
+    {
+      "scene_id": "VIS_72_008",
+      "candidate_id": "VIS_72_008_L",
+      "error": "invalid_candidate_or_state"
+    },
+    {
+      "scene_id": "VIS_72_008",
+      "error": "candidate_set_mismatch"
+    }
+  ]
+}

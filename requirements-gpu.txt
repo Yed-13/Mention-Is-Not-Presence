@@ -1,0 +1,9 @@
+# Install only on the authorized CUDA host after recording the existing environment.
+torch>=2.4
+transformers>=4.51
+datasets>=3.0
+peft>=0.13
+trl>=0.12
+accelerate>=1.0
+sentencepiece>=0.2
+bitsandbytes>=0.45

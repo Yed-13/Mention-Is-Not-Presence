@@ -1,0 +1,14 @@
+{
+  "metric": "state_accuracy",
+  "a": 0.9636363636363636,
+  "b": 0.6818181818181818,
+  "difference_a_minus_b": 0.28181818181818186,
+  "cluster_bootstrap_95_ci": [
+    0.2376237623762376,
+    0.3232758620689655
+  ],
+  "iterations": 10000,
+  "seed": 20260916,
+  "unit": "story_family",
+  "reference_tier": "programmatic_synthetic_reference"
+}

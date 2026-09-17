@@ -1,0 +1,41 @@
+{
+  "task": "external_binary_shot_visibility",
+  "reference_tier": "vistorybench_derived_mit",
+  "n_scenes": 77,
+  "n_candidates": 154,
+  "n_families": 48,
+  "accuracy": 1.0,
+  "macro_f1": 1.0,
+  "output_valid_scene_rate": 1.0,
+  "schema_valid_scene_rate": 1.0,
+  "family_exact_match": 1.0,
+  "per_label": {
+    "visible": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "not_visible": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  },
+  "confusion": {
+    "visible": {
+      "visible": 77,
+      "not_visible": 0,
+      "missing": 0
+    },
+    "not_visible": {
+      "visible": 0,
+      "not_visible": 77,
+      "missing": 0
+    }
+  },
+  "raw_predicted_state_counts": {
+    "referenced_only": 77,
+    "visible": 77
+  },
+  "validation_errors": []
+}

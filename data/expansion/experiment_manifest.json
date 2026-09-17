@@ -1,0 +1,116 @@
+{
+  "seed": 20260916,
+  "learning_curves": {
+    "25": {
+      "scenes": 60,
+      "families": 30,
+      "templates": [
+        "F01",
+        "F02",
+        "F03",
+        "F04",
+        "F05",
+        "F06",
+        "F07",
+        "F08",
+        "F09",
+        "F10"
+      ]
+    },
+    "50": {
+      "scenes": 120,
+      "families": 60,
+      "templates": [
+        "F01",
+        "F02",
+        "F03",
+        "F04",
+        "F05",
+        "F06",
+        "F07",
+        "F08",
+        "F09",
+        "F10"
+      ]
+    },
+    "75": {
+      "scenes": 180,
+      "families": 90,
+      "templates": [
+        "F01",
+        "F02",
+        "F03",
+        "F04",
+        "F05",
+        "F06",
+        "F07",
+        "F08",
+        "F09",
+        "F10"
+      ]
+    },
+    "100": {
+      "scenes": 240,
+      "families": 120,
+      "templates": [
+        "F01",
+        "F02",
+        "F03",
+        "F04",
+        "F05",
+        "F06",
+        "F07",
+        "F08",
+        "F09",
+        "F10"
+      ]
+    }
+  },
+  "template_folds": {
+    "1": {
+      "heldout_templates": [
+        "F01",
+        "F02"
+      ],
+      "train_scenes": 192,
+      "dev_scenes": 64,
+      "test_scenes": 80
+    },
+    "2": {
+      "heldout_templates": [
+        "F03",
+        "F04"
+      ],
+      "train_scenes": 192,
+      "dev_scenes": 64,
+      "test_scenes": 80
+    },
+    "3": {
+      "heldout_templates": [
+        "F05",
+        "F06"
+      ],
+      "train_scenes": 192,
+      "dev_scenes": 64,
+      "test_scenes": 80
+    },
+    "4": {
+      "heldout_templates": [
+        "F07",
+        "F08"
+      ],
+      "train_scenes": 192,
+      "dev_scenes": 64,
+      "test_scenes": 80
+    },
+    "5": {
+      "heldout_templates": [
+        "F09",
+        "F10"
+      ],
+      "train_scenes": 192,
+      "dev_scenes": 64,
+      "test_scenes": 80
+    }
+  }
+}

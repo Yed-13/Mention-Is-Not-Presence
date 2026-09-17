@@ -1,0 +1,58 @@
+{
+  "task": "external_binary_shot_visibility",
+  "reference_tier": "vistorybench_derived_mit",
+  "n_scenes": 77,
+  "n_candidates": 154,
+  "n_families": 48,
+  "accuracy": 0.7792207792207793,
+  "macro_f1": 0.8128624640482814,
+  "output_valid_scene_rate": 0.9090909090909091,
+  "schema_valid_scene_rate": 0.9090909090909091,
+  "family_exact_match": 0.5208333333333334,
+  "per_label": {
+    "visible": {
+      "precision": 0.7777777777777778,
+      "recall": 0.9090909090909091,
+      "f1": 0.8383233532934132
+    },
+    "not_visible": {
+      "precision": 1.0,
+      "recall": 0.6493506493506493,
+      "f1": 0.7874015748031497
+    }
+  },
+  "confusion": {
+    "visible": {
+      "visible": 70,
+      "not_visible": 0,
+      "missing": 7
+    },
+    "not_visible": {
+      "visible": 20,
+      "not_visible": 50,
+      "missing": 7
+    }
+  },
+  "raw_predicted_state_counts": {
+    "audible_only": 2,
+    "depicted": 2,
+    "referenced_only": 47,
+    "visible": 91
+  },
+  "validation_errors": [
+    {
+      "scene_id": "VIS_20_022",
+      "candidate_id": "VIS_20_22_V",
+      "error": "invalid_candidate_or_state"
+    },
+    {
+      "scene_id": "VIS_20_022",
+      "candidate_id": "VIS_20_22_N",
+      "error": "invalid_candidate_or_state"
+    },
+    {
+      "scene_id": "VIS_20_022",
+      "error": "candidate_set_mismatch"
+    }
+  ]
+}

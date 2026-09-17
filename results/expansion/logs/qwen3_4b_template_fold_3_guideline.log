@@ -1,0 +1,169 @@
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/398 [00:00<?, ?it/s]Loading weights:   0%|          | 1/398 [00:00<01:10,  5.64it/s]Loading weights:   2%|▏         | 9/398 [00:00<00:10, 38.56it/s]Loading weights:   8%|▊         | 31/398 [00:00<00:03, 107.01it/s]Loading weights:  13%|█▎        | 53/398 [00:00<00:02, 145.12it/s]Loading weights:  19%|█▉        | 75/398 [00:00<00:01, 168.00it/s]Loading weights:  24%|██▍       | 97/398 [00:00<00:01, 183.00it/s]Loading weights:  30%|██▉       | 119/398 [00:00<00:01, 192.72it/s]Loading weights:  35%|███▌      | 141/398 [00:00<00:01, 199.08it/s]Loading weights:  41%|████      | 163/398 [00:01<00:01, 204.63it/s]Loading weights:  46%|████▋     | 185/398 [00:01<00:01, 206.05it/s]Loading weights:  52%|█████▏    | 207/398 [00:01<00:00, 206.70it/s]Loading weights:  58%|█████▊    | 229/398 [00:01<00:00, 208.17it/s]Loading weights:  63%|██████▎   | 251/398 [00:01<00:00, 208.37it/s]Loading weights:  68%|██████▊   | 272/398 [00:01<00:00, 169.56it/s]Loading weights:  73%|███████▎  | 291/398 [00:01<00:00, 135.81it/s]Loading weights:  77%|███████▋  | 307/398 [00:01<00:00, 121.36it/s]Loading weights:  81%|████████  | 321/398 [00:02<00:00, 123.21it/s]Loading weights:  84%|████████▍ | 335/398 [00:02<00:00, 102.90it/s]Loading weights:  87%|████████▋ | 347/398 [00:02<00:00, 104.08it/s]Loading weights:  90%|█████████ | 359/398 [00:02<00:00, 94.34it/s] Loading weights:  93%|█████████▎| 370/398 [00:02<00:00, 94.73it/s]Loading weights:  95%|█████████▌| 380/398 [00:02<00:00, 93.52it/s]Loading weights:  98%|█████████▊| 390/398 [00:02<00:00, 92.77it/s]Loading weights: 100%|██████████| 398/398 [00:02<00:00, 133.71it/s]
+1 SYN_F05_00_1 ok
+2 SYN_F05_00_2 ok
+3 SYN_F05_01_1 ok
+4 SYN_F05_01_2 ok
+5 SYN_F05_02_1 ok
+6 SYN_F05_02_2 ok
+7 SYN_F05_03_1 ok
+8 SYN_F05_03_2 ok
+9 SYN_F05_04_1 ok
+10 SYN_F05_04_2 ok
+11 SYN_F05_05_1 ok
+12 SYN_F05_05_2 ok
+13 SYN_F05_06_1 ok
+14 SYN_F05_06_2 ok
+15 SYN_F05_07_1 ok
+16 SYN_F05_07_2 ok
+17 SYN_F05_08_1 ok
+18 SYN_F05_08_2 ok
+19 SYN_F05_09_1 ok
+20 SYN_F05_09_2 ok
+21 SYN_F05_10_1 ok
+22 SYN_F05_10_2 ok
+23 SYN_F05_11_1 ok
+24 SYN_F05_11_2 ok
+25 SYN_F05_12_1 ok
+26 SYN_F05_12_2 ok
+27 SYN_F05_13_1 ok
+28 SYN_F05_13_2 ok
+29 SYN_F05_14_1 ok
+30 SYN_F05_14_2 ok
+31 SYN_F05_15_1 ok
+32 SYN_F05_15_2 ok
+33 SYN_F05_16_1 ok
+34 SYN_F05_16_2 ok
+35 SYN_F05_17_1 ok
+36 SYN_F05_17_2 ok
+37 SYN_F05_18_1 ok
+38 SYN_F05_18_2 ok
+39 SYN_F05_19_1 ok
+40 SYN_F05_19_2 ok
+41 SYN_F06_00_1 ok
+42 SYN_F06_00_2 ok
+43 SYN_F06_01_1 ok
+44 SYN_F06_01_2 ok
+45 SYN_F06_02_1 ok
+46 SYN_F06_02_2 ok
+47 SYN_F06_03_1 ok
+48 SYN_F06_03_2 ok
+49 SYN_F06_04_1 ok
+50 SYN_F06_04_2 ok
+51 SYN_F06_05_1 ok
+52 SYN_F06_05_2 ok
+53 SYN_F06_06_1 ok
+54 SYN_F06_06_2 ok
+55 SYN_F06_07_1 ok
+56 SYN_F06_07_2 ok
+57 SYN_F06_08_1 ok
+58 SYN_F06_08_2 ok
+59 SYN_F06_09_1 ok
+60 SYN_F06_09_2 ok
+61 SYN_F06_10_1 ok
+62 SYN_F06_10_2 ok
+63 SYN_F06_11_1 ok
+64 SYN_F06_11_2 ok
+65 SYN_F06_12_1 ok
+66 SYN_F06_12_2 ok
+67 SYN_F06_13_1 ok
+68 SYN_F06_13_2 ok
+69 SYN_F06_14_1 ok
+70 SYN_F06_14_2 ok
+71 SYN_F06_15_1 ok
+72 SYN_F06_15_2 ok
+73 SYN_F06_16_1 ok
+74 SYN_F06_16_2 ok
+75 SYN_F06_17_1 ok
+76 SYN_F06_17_2 ok
+77 SYN_F06_18_1 ok
+78 SYN_F06_18_2 ok
+79 SYN_F06_19_1 ok
+80 SYN_F06_19_2 ok
+{
+  "task": "closed_set_scene_realization_state",
+  "reference_tier": "programmatic_synthetic_reference",
+  "n_candidates": 220,
+  "accuracy": 0.9090909090909091,
+  "macro_f1": 0.5215686274509804,
+  "schema_valid_scene_rate": 1.0,
+  "malformed_or_missing_scene_rate": 0.0,
+  "evidence_exact_match": 0.9727272727272728,
+  "evidence_overlap_recall": 0.9772727272727273,
+  "per_label": {
+    "audible_only": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 0
+    },
+    "depicted": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6666666666666666,
+      "support": 20
+    },
+    "referenced_only": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 20
+    },
+    "uncertain": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 0
+    },
+    "visible": {
+      "precision": 1.0,
+      "recall": 0.8888888888888888,
+      "f1": 0.9411764705882353,
+      "support": 180
+    }
+  },
+  "confusion": {
+    "audible_only": {
+      "audible_only": 0,
+      "depicted": 0,
+      "referenced_only": 0,
+      "uncertain": 0,
+      "visible": 0,
+      "missing": 0
+    },
+    "depicted": {
+      "audible_only": 0,
+      "depicted": 20,
+      "referenced_only": 0,
+      "uncertain": 0,
+      "visible": 0,
+      "missing": 0
+    },
+    "referenced_only": {
+      "audible_only": 0,
+      "depicted": 0,
+      "referenced_only": 20,
+      "uncertain": 0,
+      "visible": 0,
+      "missing": 0
+    },
+    "uncertain": {
+      "audible_only": 0,
+      "depicted": 0,
+      "referenced_only": 0,
+      "uncertain": 0,
+      "visible": 0,
+      "missing": 0
+    },
+    "visible": {
+      "audible_only": 0,
+      "depicted": 20,
+      "referenced_only": 0,
+      "uncertain": 0,
+      "visible": 160,
+      "missing": 0
+    }
+  },
+  "family_exact_match": 0.5,
+  "validation_errors": []
+}

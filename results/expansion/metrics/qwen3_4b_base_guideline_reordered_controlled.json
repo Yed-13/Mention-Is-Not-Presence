@@ -1,0 +1,87 @@
+{
+  "task": "closed_set_scene_realization_state",
+  "reference_tier": "programmatic_synthetic_reference",
+  "n_candidates": 220,
+  "accuracy": 0.7227272727272728,
+  "macro_f1": 0.49948569948569943,
+  "schema_valid_scene_rate": 1.0,
+  "malformed_or_missing_scene_rate": 0.0,
+  "evidence_exact_match": 0.29545454545454547,
+  "evidence_overlap_recall": 0.33181818181818185,
+  "per_label": {
+    "audible_only": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 8
+    },
+    "depicted": {
+      "precision": 0.3333333333333333,
+      "recall": 0.75,
+      "f1": 0.46153846153846156,
+      "support": 8
+    },
+    "referenced_only": {
+      "precision": 0.38095238095238093,
+      "recall": 0.8571428571428571,
+      "f1": 0.5274725274725274,
+      "support": 28
+    },
+    "uncertain": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6666666666666666,
+      "support": 4
+    },
+    "visible": {
+      "precision": 1.0,
+      "recall": 0.7267441860465116,
+      "f1": 0.8417508417508417,
+      "support": 172
+    }
+  },
+  "confusion": {
+    "audible_only": {
+      "audible_only": 0,
+      "depicted": 0,
+      "referenced_only": 8,
+      "uncertain": 0,
+      "visible": 0,
+      "missing": 0
+    },
+    "depicted": {
+      "audible_only": 0,
+      "depicted": 6,
+      "referenced_only": 2,
+      "uncertain": 0,
+      "visible": 0,
+      "missing": 0
+    },
+    "referenced_only": {
+      "audible_only": 0,
+      "depicted": 0,
+      "referenced_only": 24,
+      "uncertain": 4,
+      "visible": 0,
+      "missing": 0
+    },
+    "uncertain": {
+      "audible_only": 0,
+      "depicted": 0,
+      "referenced_only": 0,
+      "uncertain": 4,
+      "visible": 0,
+      "missing": 0
+    },
+    "visible": {
+      "audible_only": 6,
+      "depicted": 12,
+      "referenced_only": 29,
+      "uncertain": 0,
+      "visible": 125,
+      "missing": 0
+    }
+  },
+  "family_exact_match": 0.225,
+  "validation_errors": []
+}

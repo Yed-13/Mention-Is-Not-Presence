@@ -1,0 +1,1478 @@
+{
+  "base_direct": {
+    "overall": {
+      "task": "closed_set_scene_realization_state",
+      "reference_tier": "programmatic_synthetic_reference",
+      "n_candidates": 220,
+      "accuracy": 0.45,
+      "macro_f1": 0.5116517495565877,
+      "schema_valid_scene_rate": 0.925,
+      "malformed_or_missing_scene_rate": 0.07499999999999996,
+      "evidence_exact_match": 0.07727272727272727,
+      "evidence_overlap_recall": 0.07727272727272727,
+      "per_label": {
+        "audible_only": {
+          "precision": 0.14285714285714285,
+          "recall": 0.5,
+          "f1": 0.22222222222222224,
+          "support": 8
+        },
+        "depicted": {
+          "precision": 0.05405405405405406,
+          "recall": 0.5,
+          "f1": 0.0975609756097561,
+          "support": 8
+        },
+        "referenced_only": {
+          "precision": 0.7575757575757576,
+          "recall": 0.8928571428571429,
+          "f1": 0.819672131147541,
+          "support": 28
+        },
+        "uncertain": {
+          "precision": 0.8,
+          "recall": 1.0,
+          "f1": 0.888888888888889,
+          "support": 4
+        },
+        "visible": {
+          "precision": 1.0,
+          "recall": 0.36046511627906974,
+          "f1": 0.5299145299145299,
+          "support": 172
+        }
+      },
+      "confusion": {
+        "audible_only": {
+          "audible_only": 4,
+          "depicted": 0,
+          "referenced_only": 0,
+          "uncertain": 0,
+          "visible": 0,
+          "missing": 4
+        },
+        "depicted": {
+          "audible_only": 0,
+          "depicted": 4,
+          "referenced_only": 2,
+          "uncertain": 1,
+          "visible": 0,
+          "missing": 1
+        },
+        "referenced_only": {
+          "audible_only": 2,
+          "depicted": 0,
+          "referenced_only": 25,
+          "uncertain": 0,
+          "visible": 0,
+          "missing": 1
+        },
+        "uncertain": {
+          "audible_only": 0,
+          "depicted": 0,
+          "referenced_only": 0,
+          "uncertain": 4,
+          "visible": 0,
+          "missing": 0
+        },
+        "visible": {
+          "audible_only": 22,
+          "depicted": 70,
+          "referenced_only": 6,
+          "uncertain": 0,
+          "visible": 62,
+          "missing": 12
+        }
+      },
+      "family_exact_match": 0.0,
+      "validation_errors": []
+    },
+    "by_template": {
+      "F01": {
+        "n_candidates": 24,
+        "accuracy": 0.4166666666666667,
+        "macro_f1": 0.2537037037037037,
+        "evidence_exact_match": 0.0,
+        "schema_valid_scene_rate": 0.875,
+        "family_exact_match": 0.0
+      },
+      "F02": {
+        "n_candidates": 16,
+        "accuracy": 0.5625,
+        "macro_f1": 0.2776470588235294,
+        "evidence_exact_match": 0.5,
+        "schema_valid_scene_rate": 1.0,
+        "family_exact_match": 0.0
+      },
+      "F03": {
+        "n_candidates": 24,
+        "accuracy": 0.7083333333333334,
+        "macro_f1": 0.31470588235294117,
+        "evidence_exact_match": 0.0,
+        "schema_valid_scene_rate": 1.0,
+        "family_exact_match": 0.0
+      },
+      "F04": {
+        "n_candidates": 24,
+        "accuracy": 0.6666666666666666,
+        "macro_f1": 0.35,
+        "evidence_exact_match": 0.041666666666666664,
+        "schema_valid_scene_rate": 1.0,
+        "family_exact_match": 0.0
+      },
+      "F05": {
+        "n_candidates": 20,
+        "accuracy": 0.55,
+        "macro_f1": 0.32173913043478264,
+        "evidence_exact_match": 0.4,
+        "schema_valid_scene_rate": 1.0,
+        "family_exact_match": 0.0
+      },
+      "F06": {
+        "n_candidates": 24,
+        "accuracy": 0.25,
+        "macro_f1": 0.10671936758893281,
+        "evidence_exact_match": 0.0,
+        "schema_valid_scene_rate": 0.875,
+        "family_exact_match": 0.0
+      },
+      "F07": {
+        "n_candidates": 24,
+        "accuracy": 0.5,
+        "macro_f1": 0.31428571428571433,
+        "evidence_exact_match": 0.0,
+        "schema_valid_scene_rate": 1.0,
+        "family_exact_match": 0.0
+      },
+      "F08": {
+        "n_candidates": 28,
+        "accuracy": 0.2857142857142857,
+        "macro_f1": 0.2666666666666667,
+        "evidence_exact_match": 0.0,
+        "schema_valid_scene_rate": 0.5,
+        "family_exact_match": 0.0
+      },
+      "F09": {
+        "n_candidates": 12,
+        "accuracy": 0.6666666666666666,
+        "macro_f1": 0.4514285714285714,
+        "evidence_exact_match": 0.0,
+        "schema_valid_scene_rate": 1.0,
+        "family_exact_match": 0.0
+      },
+      "F10": {
+        "n_candidates": 24,
+        "accuracy": 0.08333333333333333,
+        "macro_f1": 0.045714285714285714,
+        "evidence_exact_match": 0.0,
+        "schema_valid_scene_rate": 1.0,
+        "family_exact_match": 0.0
+      }
+    },
+    "errors": {
+      "schema_error_scenes": 6,
+      "label_error_candidates": 103,
+      "evidence_only_error_candidates": 92,
+      "examples": [
+        {
+          "scene_id": "SYN_F01_16_1",
+          "candidate_id": "linqing",
+          "error_type": "evidence",
+          "gold": [
+            "温言站在桌旁"
+          ],
+          "prediction": [
+            "温言"
+          ],
+          "text": "内景 办公室 日。温言站在桌旁。桌上放着一把U盘。"
+        },
+        {
+          "scene_id": "SYN_F01_16_1",
+          "candidate_id": "desk",
+          "error_type": "label",
+          "gold": "visible",
+          "prediction": "depicted",
+          "text": "内景 办公室 日。温言站在桌旁。桌上放着一把U盘。"
+        },
+        {
+          "scene_id": "SYN_F01_16_1",
+          "candidate_id": "key",
+          "error_type": "label",
+          "gold": "visible",
+          "prediction": "depicted",
+          "text": "内景 办公室 日。温言站在桌旁。桌上放着一把U盘。"
+        },
+        {
+          "scene_id": "SYN_F01_16_2",
+          "candidate_id": "linqing",
+          "error_type": "evidence",
+          "gold": [
+            "温言站在桌旁"
+          ],
+          "prediction": [
+            "温言"
+          ],
+          "text": "内景 办公室 日。温言站在桌旁，说：“桌上昨天放着一把U盘，今天已经拿走了。”"
+        },
+        {
+          "scene_id": "SYN_F01_16_2",
+          "candidate_id": "desk",
+          "error_type": "label",
+          "gold": "visible",
+          "prediction": "depicted",
+          "text": "内景 办公室 日。温言站在桌旁，说：“桌上昨天放着一把U盘，今天已经拿走了。”"
+        },
+        {
+          "scene_id": "SYN_F01_16_2",
+          "candidate_id": "key",
+          "error_type": "evidence",
+          "gold": [
+            "桌上昨天放着一把U盘，今天已经拿走了"
+          ],
+          "prediction": [
+            "U盘"
+          ],
+          "text": "内景 办公室 日。温言站在桌旁，说：“桌上昨天放着一把U盘，今天已经拿走了。”"
+        },
+        {
+          "scene_id": "SYN_F01_17_1",
+          "candidate_id": "linqing",
+          "error_type": "evidence",
+          "gold": [
+            "夏禾站在桌旁"
+          ],
+          "prediction": [
+            "夏禾"
+          ],
+          "text": "内景 办公室 日。夏禾站在桌旁。桌上放着一把车钥匙。"
+        },
+        {
+          "scene_id": "SYN_F01_17_1",
+          "candidate_id": "desk",
+          "error_type": "label",
+          "gold": "visible",
+          "prediction": "depicted",
+          "text": "内景 办公室 日。夏禾站在桌旁。桌上放着一把车钥匙。"
+        },
+        {
+          "scene_id": "SYN_F01_17_1",
+          "candidate_id": "key",
+          "error_type": "label",
+          "gold": "visible",
+          "prediction": "depicted",
+          "text": "内景 办公室 日。夏禾站在桌旁。桌上放着一把车钥匙。"
+        },
+        {
+          "scene_id": "SYN_F01_17_2",
+          "candidate_id": "linqing",
+          "error_type": "evidence",
+          "gold": [
+            "夏禾站在桌旁"
+          ],
+          "prediction": [
+            "夏禾"
+          ],
+          "text": "内景 办公室 日。夏禾站在桌旁，说：“桌上昨天放着一把车钥匙，今天已经拿走了。”"
+        },
+        {
+          "scene_id": "SYN_F01_17_2",
+          "candidate_id": "desk",
+          "error_type": "label",
+          "gold": "visible",
+          "prediction": "depicted",
+          "text": "内景 办公室 日。夏禾站在桌旁，说：“桌上昨天放着一把车钥匙，今天已经拿走了。”"
+        },
+        {
+          "scene_id": "SYN_F01_17_2",
+          "candidate_id": "key",
+          "error_type": "evidence",
+          "gold": [
+            "桌上昨天放着一把车钥匙，今天已经拿走了"
+          ],
+          "prediction": [
+            "车钥匙"
+          ],
+          "text": "内景 办公室 日。夏禾站在桌旁，说：“桌上昨天放着一把车钥匙，今天已经拿走了。”"
+        },
+        {
+          "scene_id": "SYN_F01_18_1",
+          "candidate_id": "linqing",
+          "error_type": "evidence",
+          "gold": [
+            "严冬站在桌旁"
+          ],
+          "prediction": [
+            "严冬"
+          ],
+          "text": "内景 办公室 日。严冬站在桌旁。桌上放着一把工作证。"
+        },
+        {
+          "scene_id": "SYN_F01_18_1",
+          "candidate_id": "desk",
+          "error_type": "label",
+          "gold": "visible",
+          "prediction": "depicted",
+          "text": "内景 办公室 日。严冬站在桌旁。桌上放着一把工作证。"
+        },
+        {
+          "scene_id": "SYN_F01_18_1",
+          "candidate_id": "key",
+          "error_type": "label",
+          "gold": "visible",
+          "prediction": "referenced_only",
+          "text": "内景 办公室 日。严冬站在桌旁。桌上放着一把工作证。"
+        },
+        {
+          "scene_id": "SYN_F01_18_2",
+          "error_type": "schema",
+          "text": "内景 办公室 日。严冬站在桌旁，说：“桌上昨天放着一把工作证，今天已经拿走了。”"
+        },
+        {
+          "scene_id": "SYN_F01_19_1",
+          "candidate_id": "linqing",
+          "error_type": "evidence",
+          "gold": [
+            "赵青站在桌旁"
+          ],
+          "prediction": [
+            "赵青"
+          ],
+          "text": "内景 办公室 日。赵青站在桌旁。桌上放着一把遥控器。"
+        },
+        {
+          "scene_id": "SYN_F01_19_1",
+          "candidate_id": "desk",
+          "error_type": "label",
+          "gold": "visible",
+          "prediction": "depicted",
+          "text": "内景 办公室 日。赵青站在桌旁。桌上放着一把遥控器。"
+        },
+        {
+          "scene_id": "SYN_F01_19_1",
+          "candidate_id": "key",
+          "error_type": "label",
+          "gold": "visible",
+          "prediction": "depicted",
+          "text": "内景 办公室 日。赵青站在桌旁。桌上放着一把遥控器。"
+        },
+        {
+          "scene_id": "SYN_F01_19_2",
+          "candidate_id": "linqing",
+          "error_type": "evidence",
+          "gold": [
+            "赵青站在桌旁"
+          ],
+          "prediction": [
+            "赵青"
+          ],
+          "text": "内景 办公室 日。赵青站在桌旁，说：“桌上昨天放着一把遥控器，今天已经拿走了。”"
+        },
+        {
+          "scene_id": "SYN_F01_19_2",
+          "candidate_id": "desk",
+          "error_type": "label",
+          "gold": "visible",
+          "prediction": "depicted",
+          "text": "内景 办公室 日。赵青站在桌旁，说：“桌上昨天放着一把遥控器，今天已经拿走了。”"
+        },
+        {
+          "scene_id": "SYN_F01_19_2",
+          "candidate_id": "key",
+          "error_type": "evidence",
+          "gold": [
+            "桌上昨天放着一把遥控器，今天已经拿走了"
+          ],
+          "prediction": [
+            "遥控器"
+          ],
+          "text": "内景 办公室 日。赵青站在桌旁，说：“桌上昨天放着一把遥控器，今天已经拿走了。”"
+        },
+        {
+          "scene_id": "SYN_F02_16_1",
+          "candidate_id": "linqing",
+          "error_type": "label",
+          "gold": "visible",
+          "prediction": "audible_only",
+          "text": "内景 门厅 日。老夏走进门厅，对温言说：“我回来了。”温言点头。"
+        },
+        {
+          "scene_id": "SYN_F02_16_2",
+          "candidate_id": "linqing",
+          "error_type": "label",
+          "gold": "visible",
+          "prediction": "depicted",
+          "text": "内景 门厅 日。温言独自站着。门外传来老夏的声音：“我回来了。”老夏始终没有进入画面。"
+        },
+        {
+          "scene_id": "SYN_F02_16_2",
+          "candidate_id": "laozhou",
+          "error_type": "evidence",
+          "gold": [
+            "门外传来老夏的声音",
+            "老夏始终没有进入画面"
+          ],
+          "prediction": [
+            "老夏的声音"
+          ],
+          "text": "内景 门厅 日。温言独自站着。门外传来老夏的声音：“我回来了。”老夏始终没有进入画面。"
+        },
+        {
+          "scene_id": "SYN_F02_17_1",
+          "candidate_id": "linqing",
+          "error_type": "label",
+          "gold": "visible",
+          "prediction": "audible_only",
+          "text": "内景 门厅 日。老严走进门厅，对夏禾说：“我回来了。”夏禾点头。"
+        },
+        {
+          "scene_id": "SYN_F02_17_2",
+          "candidate_id": "linqing",
+          "error_type": "label",
+          "gold": "visible",
+          "prediction": "depicted",
+          "text": "内景 门厅 日。夏禾独自站着。门外传来老严的声音：“我回来了。”老严始终没有进入画面。"
+        },
+        {
+          "scene_id": "SYN_F02_17_2",
+          "candidate_id": "laozhou",
+          "error_type": "evidence",
+          "gold": [
+            "门外传来老严的声音",
+            "老严始终没有进入画面"
+          ],
+          "prediction": [
+            "老严的声音"
+          ],
+          "text": "内景 门厅 日。夏禾独自站着。门外传来老严的声音：“我回来了。”老严始终没有进入画面。"
+        },
+        {
+          "scene_id": "SYN_F02_18_2",
+          "candidate_id": "linqing",
+          "error_type": "label",
+          "gold": "visible",
+          "prediction": "depicted",
+          "text": "内景 门厅 日。严冬独自站着。门外传来老赵的声音：“我回来了。”老赵始终没有进入画面。"
+        },
+        {
+          "scene_id": "SYN_F02_18_2",
+          "candidate_id": "laozhou",
+          "error_type": "evidence",
+          "gold": [
+            "门外传来老赵的声音",
+            "老赵始终没有进入画面"
+          ],
+          "prediction": [
+            "老赵的声音"
+          ],
+          "text": "内景 门厅 日。严冬独自站着。门外传来老赵的声音：“我回来了。”老赵始终没有进入画面。"
+        },
+        {
+          "scene_id": "SYN_F06_19_2",
+          "error_type": "schema",
+          "text": "内景 卧室 夜。赵青独自坐在桌旁。桌上是一张老林的照片，照片里老林穿着警服。"
+        },
+        {
+          "scene_id": "SYN_F08_16_1",
+          "error_type": "schema",
+          "text": "内景 客厅 日。温言把手机开成免提。手机里传来王姐的声音：“我已经到了。”"
+        },
+        {
+          "scene_id": "SYN_F08_17_1",
+          "error_type": "schema",
+          "text": "内景 客厅 日。夏禾把手机开成免提。手机里传来王姐的声音：“我已经到了。”"
+        },
+        {
+          "scene_id": "SYN_F08_18_1",
+          "error_type": "schema",
+          "text": "内景 客厅 日。严冬把手机开成免提。手机里传来王姐的声音：“我已经到了。”"
+        },
+        {
+          "scene_id": "SYN_F08_19_1",
+          "error_type": "schema",
+          "text": "内景 客厅 日。赵青把手机开成免提。手机里传来王姐的声音：“我已经到了。”"
+        }
+      ]
+    }
+  },
+  "base_guideline": {
+    "overall": {
+      "task": "closed_set_scene_realization_state",
+      "reference_tier": "programmatic_synthetic_reference",
+      "n_candidates": 220,
+      "accuracy": 0.6818181818181818,
+      "macro_f1": 0.6474700805636058,
+      "schema_valid_scene_rate": 1.0,
+      "malformed_or_missing_scene_rate": 0.0,
+      "evidence_exact_match": 0.32272727272727275,
+      "evidence_overlap_recall": 0.33181818181818185,
+      "per_label": {
+        "audible_only": {
+          "precision": 0.27586206896551724,
+          "recall": 1.0,
+          "f1": 0.4324324324324324,
+          "support": 8
+        },
+        "depicted": {
+          "precision": 0.10869565217391304,
+          "recall": 0.625,
+          "f1": 0.18518518518518517,
+          "support": 8
+        },
+        "referenced_only": {
+          "precision": 0.7714285714285715,
+          "recall": 0.9642857142857143,
+          "f1": 0.8571428571428572,
+          "support": 28
+        },
+        "uncertain": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 4
+        },
+        "visible": {
+          "precision": 1.0,
+          "recall": 0.6162790697674418,
+          "f1": 0.762589928057554,
+          "support": 172
+        }
+      },
+      "confusion": {
+        "audible_only": {
+          "audible_only": 8,
+          "depicted": 0,
+          "referenced_only": 0,
+          "uncertain": 0,
+          "visible": 0,
+          "missing": 0
+        },
+        "depicted": {
+          "audible_only": 0,
+          "depicted": 5,
+          "referenced_only": 3,
+          "uncertain": 0,
+          "visible": 0,
+          "missing": 0
+        },
+        "referenced_only": {
+          "audible_only": 1,
+          "depicted": 0,
+          "referenced_only": 27,
+          "uncertain": 0,
+          "visible": 0,
+          "missing": 0
+        },
+        "uncertain": {
+          "audible_only": 0,
+          "depicted": 0,
+          "referenced_only": 0,
+          "uncertain": 4,
+          "visible": 0,
+          "missing": 0
+        },
+        "visible": {
+          "audible_only": 20,
+          "depicted": 41,
+          "referenced_only": 5,
+          "uncertain": 0,
+          "visible": 106,
+          "missing": 0
+        }
+      },
+      "family_exact_match": 0.175,
+      "validation_errors": []
+    },
+    "by_template": {
+      "F01": {
+        "n_candidates": 24,
+        "accuracy": 0.7916666666666666,
+        "macro_f1": 0.3492063492063492,
+        "evidence_exact_match": 0.375,
+        "schema_valid_scene_rate": 1.0,
+        "family_exact_match": 0.0
+      },
+      "F02": {
+        "n_candidates": 16,
+        "accuracy": 0.9375,
+        "macro_f1": 0.3690821256038648,
+        "evidence_exact_match": 0.625,
+        "schema_valid_scene_rate": 1.0,
+        "family_exact_match": 0.75
+      },
+      "F03": {
+        "n_candidates": 24,
+        "accuracy": 0.7916666666666666,
+        "macro_f1": 0.3492063492063492,
+        "evidence_exact_match": 0.0,
+        "schema_valid_scene_rate": 1.0,
+        "family_exact_match": 0.0
+      },
+      "F04": {
+        "n_candidates": 24,
+        "accuracy": 0.7916666666666666,
+        "macro_f1": 0.37142857142857144,
+        "evidence_exact_match": 0.16666666666666666,
+        "schema_valid_scene_rate": 1.0,
+        "family_exact_match": 0.0
+      },
+      "F05": {
+        "n_candidates": 20,
+        "accuracy": 0.6,
+        "macro_f1": 0.3333333333333333,
+        "evidence_exact_match": 0.6,
+        "schema_valid_scene_rate": 1.0,
+        "family_exact_match": 0.0
+      },
+      "F06": {
+        "n_candidates": 24,
+        "accuracy": 0.5416666666666666,
+        "macro_f1": 0.22413793103448273,
+        "evidence_exact_match": 1.0,
+        "schema_valid_scene_rate": 1.0,
+        "family_exact_match": 0.0
+      },
+      "F07": {
+        "n_candidates": 24,
+        "accuracy": 0.5,
+        "macro_f1": 0.31428571428571433,
+        "evidence_exact_match": 0.16666666666666666,
+        "schema_valid_scene_rate": 1.0,
+        "family_exact_match": 0.0
+      },
+      "F08": {
+        "n_candidates": 28,
+        "accuracy": 0.5714285714285714,
+        "macro_f1": 0.4142857142857143,
+        "evidence_exact_match": 0.0,
+        "schema_valid_scene_rate": 1.0,
+        "family_exact_match": 0.0
+      },
+      "F09": {
+        "n_candidates": 12,
+        "accuracy": 1.0,
+        "macro_f1": 0.6,
+        "evidence_exact_match": 0.6666666666666666,
+        "schema_valid_scene_rate": 1.0,
+        "family_exact_match": 1.0
+      },
+      "F10": {
+        "n_candidates": 24,
+        "accuracy": 0.5416666666666666,
+        "macro_f1": 0.19444444444444442,
+        "evidence_exact_match": 0.0,
+        "schema_valid_scene_rate": 1.0,
+        "family_exact_match": 0.0
+      }
+    },
+    "errors": {
+      "schema_error_scenes": 0,
+      "label_error_candidates": 70,
+      "evidence_only_error_candidates": 100,
+      "examples": [
+        {
+          "scene_id": "SYN_F01_16_1",
+          "candidate_id": "desk",
+          "error_type": "evidence",
+          "gold": [
+            "桌上放着一把U盘"
+          ],
+          "prediction": [
+            "桌旁"
+          ],
+          "text": "内景 办公室 日。温言站在桌旁。桌上放着一把U盘。"
+        },
+        {
+          "scene_id": "SYN_F01_16_1",
+          "candidate_id": "key",
+          "error_type": "label",
+          "gold": "visible",
+          "prediction": "depicted",
+          "text": "内景 办公室 日。温言站在桌旁。桌上放着一把U盘。"
+        },
+        {
+          "scene_id": "SYN_F01_16_2",
+          "candidate_id": "desk",
+          "error_type": "evidence",
+          "gold": [
+            "温言站在桌旁"
+          ],
+          "prediction": [
+            "桌"
+          ],
+          "text": "内景 办公室 日。温言站在桌旁，说：“桌上昨天放着一把U盘，今天已经拿走了。”"
+        },
+        {
+          "scene_id": "SYN_F01_16_2",
+          "candidate_id": "key",
+          "error_type": "label",
+          "gold": "referenced_only",
+          "prediction": "audible_only",
+          "text": "内景 办公室 日。温言站在桌旁，说：“桌上昨天放着一把U盘，今天已经拿走了。”"
+        },
+        {
+          "scene_id": "SYN_F01_17_1",
+          "candidate_id": "desk",
+          "error_type": "evidence",
+          "gold": [
+            "桌上放着一把车钥匙"
+          ],
+          "prediction": [
+            "桌"
+          ],
+          "text": "内景 办公室 日。夏禾站在桌旁。桌上放着一把车钥匙。"
+        },
+        {
+          "scene_id": "SYN_F01_17_1",
+          "candidate_id": "key",
+          "error_type": "label",
+          "gold": "visible",
+          "prediction": "depicted",
+          "text": "内景 办公室 日。夏禾站在桌旁。桌上放着一把车钥匙。"
+        },
+        {
+          "scene_id": "SYN_F01_17_2",
+          "candidate_id": "desk",
+          "error_type": "evidence",
+          "gold": [
+            "夏禾站在桌旁"
+          ],
+          "prediction": [
+            "桌"
+          ],
+          "text": "内景 办公室 日。夏禾站在桌旁，说：“桌上昨天放着一把车钥匙，今天已经拿走了。”"
+        },
+        {
+          "scene_id": "SYN_F01_17_2",
+          "candidate_id": "key",
+          "error_type": "evidence",
+          "gold": [
+            "桌上昨天放着一把车钥匙，今天已经拿走了"
+          ],
+          "prediction": [
+            "车钥匙"
+          ],
+          "text": "内景 办公室 日。夏禾站在桌旁，说：“桌上昨天放着一把车钥匙，今天已经拿走了。”"
+        },
+        {
+          "scene_id": "SYN_F01_18_1",
+          "candidate_id": "desk",
+          "error_type": "evidence",
+          "gold": [
+            "桌上放着一把工作证"
+          ],
+          "prediction": [
+            "桌"
+          ],
+          "text": "内景 办公室 日。严冬站在桌旁。桌上放着一把工作证。"
+        },
+        {
+          "scene_id": "SYN_F01_18_1",
+          "candidate_id": "key",
+          "error_type": "label",
+          "gold": "visible",
+          "prediction": "depicted",
+          "text": "内景 办公室 日。严冬站在桌旁。桌上放着一把工作证。"
+        },
+        {
+          "scene_id": "SYN_F01_18_2",
+          "candidate_id": "desk",
+          "error_type": "evidence",
+          "gold": [
+            "严冬站在桌旁"
+          ],
+          "prediction": [
+            "桌"
+          ],
+          "text": "内景 办公室 日。严冬站在桌旁，说：“桌上昨天放着一把工作证，今天已经拿走了。”"
+        },
+        {
+          "scene_id": "SYN_F01_18_2",
+          "candidate_id": "key",
+          "error_type": "evidence",
+          "gold": [
+            "桌上昨天放着一把工作证，今天已经拿走了"
+          ],
+          "prediction": [
+            "工作证"
+          ],
+          "text": "内景 办公室 日。严冬站在桌旁，说：“桌上昨天放着一把工作证，今天已经拿走了。”"
+        },
+        {
+          "scene_id": "SYN_F01_19_1",
+          "candidate_id": "desk",
+          "error_type": "evidence",
+          "gold": [
+            "桌上放着一把遥控器"
+          ],
+          "prediction": [
+            "桌"
+          ],
+          "text": "内景 办公室 日。赵青站在桌旁。桌上放着一把遥控器。"
+        },
+        {
+          "scene_id": "SYN_F01_19_1",
+          "candidate_id": "key",
+          "error_type": "label",
+          "gold": "visible",
+          "prediction": "depicted",
+          "text": "内景 办公室 日。赵青站在桌旁。桌上放着一把遥控器。"
+        },
+        {
+          "scene_id": "SYN_F01_19_2",
+          "candidate_id": "desk",
+          "error_type": "evidence",
+          "gold": [
+            "赵青站在桌旁"
+          ],
+          "prediction": [
+            "桌"
+          ],
+          "text": "内景 办公室 日。赵青站在桌旁，说：“桌上昨天放着一把遥控器，今天已经拿走了。”"
+        },
+        {
+          "scene_id": "SYN_F01_19_2",
+          "candidate_id": "key",
+          "error_type": "evidence",
+          "gold": [
+            "桌上昨天放着一把遥控器，今天已经拿走了"
+          ],
+          "prediction": [
+            "遥控器"
+          ],
+          "text": "内景 办公室 日。赵青站在桌旁，说：“桌上昨天放着一把遥控器，今天已经拿走了。”"
+        },
+        {
+          "scene_id": "SYN_F02_16_1",
+          "candidate_id": "linqing",
+          "error_type": "label",
+          "gold": "visible",
+          "prediction": "audible_only",
+          "text": "内景 门厅 日。老夏走进门厅，对温言说：“我回来了。”温言点头。"
+        },
+        {
+          "scene_id": "SYN_F02_16_2",
+          "candidate_id": "laozhou",
+          "error_type": "evidence",
+          "gold": [
+            "门外传来老夏的声音",
+            "老夏始终没有进入画面"
+          ],
+          "prediction": [
+            "门外传来老夏的声音"
+          ],
+          "text": "内景 门厅 日。温言独自站着。门外传来老夏的声音：“我回来了。”老夏始终没有进入画面。"
+        },
+        {
+          "scene_id": "SYN_F02_17_2",
+          "candidate_id": "laozhou",
+          "error_type": "evidence",
+          "gold": [
+            "门外传来老严的声音",
+            "老严始终没有进入画面"
+          ],
+          "prediction": [
+            "老严的声音"
+          ],
+          "text": "内景 门厅 日。夏禾独自站着。门外传来老严的声音：“我回来了。”老严始终没有进入画面。"
+        },
+        {
+          "scene_id": "SYN_F02_18_1",
+          "candidate_id": "linqing",
+          "error_type": "evidence",
+          "gold": [
+            "严冬点头"
+          ],
+          "prediction": [
+            "严冬说"
+          ],
+          "text": "内景 门厅 日。老赵走进门厅，对严冬说：“我回来了。”严冬点头。"
+        },
+        {
+          "scene_id": "SYN_F02_18_2",
+          "candidate_id": "laozhou",
+          "error_type": "evidence",
+          "gold": [
+            "门外传来老赵的声音",
+            "老赵始终没有进入画面"
+          ],
+          "prediction": [
+            "门外传来老赵的声音"
+          ],
+          "text": "内景 门厅 日。严冬独自站着。门外传来老赵的声音：“我回来了。”老赵始终没有进入画面。"
+        },
+        {
+          "scene_id": "SYN_F02_19_2",
+          "candidate_id": "laozhou",
+          "error_type": "evidence",
+          "gold": [
+            "门外传来老林的声音",
+            "老林始终没有进入画面"
+          ],
+          "prediction": [
+            "老林的声音"
+          ],
+          "text": "内景 门厅 日。赵青独自站着。门外传来老林的声音：“我回来了。”老林始终没有进入画面。"
+        },
+        {
+          "scene_id": "SYN_F03_16_1",
+          "candidate_id": "xiaolin",
+          "error_type": "evidence",
+          "gold": [
+            "小温打开抽屉"
+          ],
+          "prediction": [
+            "小温"
+          ],
+          "text": "内景 厨房 日。小温打开抽屉，拿出一把纸袋。"
+        },
+        {
+          "scene_id": "SYN_F03_16_1",
+          "candidate_id": "drawer",
+          "error_type": "evidence",
+          "gold": [
+            "小温打开抽屉"
+          ],
+          "prediction": [
+            "抽屉"
+          ],
+          "text": "内景 厨房 日。小温打开抽屉，拿出一把纸袋。"
+        },
+        {
+          "scene_id": "SYN_F03_16_1",
+          "candidate_id": "scissors",
+          "error_type": "label",
+          "gold": "visible",
+          "prediction": "depicted",
+          "text": "内景 厨房 日。小温打开抽屉，拿出一把纸袋。"
+        },
+        {
+          "scene_id": "SYN_F03_16_2",
+          "candidate_id": "xiaolin",
+          "error_type": "evidence",
+          "gold": [
+            "小温打开抽屉"
+          ],
+          "prediction": [
+            "小温"
+          ],
+          "text": "内景 厨房 日。小温打开抽屉，发现里面没有纸袋。"
+        },
+        {
+          "scene_id": "SYN_F03_16_2",
+          "candidate_id": "drawer",
+          "error_type": "evidence",
+          "gold": [
+            "小温打开抽屉"
+          ],
+          "prediction": [
+            "抽屉"
+          ],
+          "text": "内景 厨房 日。小温打开抽屉，发现里面没有纸袋。"
+        },
+        {
+          "scene_id": "SYN_F03_16_2",
+          "candidate_id": "scissors",
+          "error_type": "evidence",
+          "gold": [
+            "里面没有纸袋"
+          ],
+          "prediction": [
+            "纸袋"
+          ],
+          "text": "内景 厨房 日。小温打开抽屉，发现里面没有纸袋。"
+        },
+        {
+          "scene_id": "SYN_F03_17_1",
+          "candidate_id": "xiaolin",
+          "error_type": "evidence",
+          "gold": [
+            "小夏打开抽屉"
+          ],
+          "prediction": [
+            "小夏"
+          ],
+          "text": "内景 厨房 日。小夏打开抽屉，拿出一把玩偶。"
+        },
+        {
+          "scene_id": "SYN_F03_17_1",
+          "candidate_id": "drawer",
+          "error_type": "evidence",
+          "gold": [
+            "小夏打开抽屉"
+          ],
+          "prediction": [
+            "抽屉"
+          ],
+          "text": "内景 厨房 日。小夏打开抽屉，拿出一把玩偶。"
+        }
+      ]
+    }
+  },
+  "qlora_direct": {
+    "overall": {
+      "task": "closed_set_scene_realization_state",
+      "reference_tier": "programmatic_synthetic_reference",
+      "n_candidates": 220,
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "schema_valid_scene_rate": 1.0,
+      "malformed_or_missing_scene_rate": 0.0,
+      "evidence_exact_match": 1.0,
+      "evidence_overlap_recall": 1.0,
+      "per_label": {
+        "audible_only": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 8
+        },
+        "depicted": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 8
+        },
+        "referenced_only": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 28
+        },
+        "uncertain": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 4
+        },
+        "visible": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 172
+        }
+      },
+      "confusion": {
+        "audible_only": {
+          "audible_only": 8,
+          "depicted": 0,
+          "referenced_only": 0,
+          "uncertain": 0,
+          "visible": 0,
+          "missing": 0
+        },
+        "depicted": {
+          "audible_only": 0,
+          "depicted": 8,
+          "referenced_only": 0,
+          "uncertain": 0,
+          "visible": 0,
+          "missing": 0
+        },
+        "referenced_only": {
+          "audible_only": 0,
+          "depicted": 0,
+          "referenced_only": 28,
+          "uncertain": 0,
+          "visible": 0,
+          "missing": 0
+        },
+        "uncertain": {
+          "audible_only": 0,
+          "depicted": 0,
+          "referenced_only": 0,
+          "uncertain": 4,
+          "visible": 0,
+          "missing": 0
+        },
+        "visible": {
+          "audible_only": 0,
+          "depicted": 0,
+          "referenced_only": 0,
+          "uncertain": 0,
+          "visible": 172,
+          "missing": 0
+        }
+      },
+      "family_exact_match": 1.0,
+      "validation_errors": []
+    },
+    "by_template": {
+      "F01": {
+        "n_candidates": 24,
+        "accuracy": 1.0,
+        "macro_f1": 0.4,
+        "evidence_exact_match": 1.0,
+        "schema_valid_scene_rate": 1.0,
+        "family_exact_match": 1.0
+      },
+      "F02": {
+        "n_candidates": 16,
+        "accuracy": 1.0,
+        "macro_f1": 0.4,
+        "evidence_exact_match": 1.0,
+        "schema_valid_scene_rate": 1.0,
+        "family_exact_match": 1.0
+      },
+      "F03": {
+        "n_candidates": 24,
+        "accuracy": 1.0,
+        "macro_f1": 0.4,
+        "evidence_exact_match": 1.0,
+        "schema_valid_scene_rate": 1.0,
+        "family_exact_match": 1.0
+      },
+      "F04": {
+        "n_candidates": 24,
+        "accuracy": 1.0,
+        "macro_f1": 0.4,
+        "evidence_exact_match": 1.0,
+        "schema_valid_scene_rate": 1.0,
+        "family_exact_match": 1.0
+      },
+      "F05": {
+        "n_candidates": 20,
+        "accuracy": 1.0,
+        "macro_f1": 0.4,
+        "evidence_exact_match": 1.0,
+        "schema_valid_scene_rate": 1.0,
+        "family_exact_match": 1.0
+      },
+      "F06": {
+        "n_candidates": 24,
+        "accuracy": 1.0,
+        "macro_f1": 0.4,
+        "evidence_exact_match": 1.0,
+        "schema_valid_scene_rate": 1.0,
+        "family_exact_match": 1.0
+      },
+      "F07": {
+        "n_candidates": 24,
+        "accuracy": 1.0,
+        "macro_f1": 0.4,
+        "evidence_exact_match": 1.0,
+        "schema_valid_scene_rate": 1.0,
+        "family_exact_match": 1.0
+      },
+      "F08": {
+        "n_candidates": 28,
+        "accuracy": 1.0,
+        "macro_f1": 0.6,
+        "evidence_exact_match": 1.0,
+        "schema_valid_scene_rate": 1.0,
+        "family_exact_match": 1.0
+      },
+      "F09": {
+        "n_candidates": 12,
+        "accuracy": 1.0,
+        "macro_f1": 0.6,
+        "evidence_exact_match": 1.0,
+        "schema_valid_scene_rate": 1.0,
+        "family_exact_match": 1.0
+      },
+      "F10": {
+        "n_candidates": 24,
+        "accuracy": 1.0,
+        "macro_f1": 0.4,
+        "evidence_exact_match": 1.0,
+        "schema_valid_scene_rate": 1.0,
+        "family_exact_match": 1.0
+      }
+    },
+    "errors": {
+      "schema_error_scenes": 0,
+      "label_error_candidates": 0,
+      "evidence_only_error_candidates": 0,
+      "examples": []
+    }
+  },
+  "qlora_guideline": {
+    "overall": {
+      "task": "closed_set_scene_realization_state",
+      "reference_tier": "programmatic_synthetic_reference",
+      "n_candidates": 220,
+      "accuracy": 0.9636363636363636,
+      "macro_f1": 0.902262443438914,
+      "schema_valid_scene_rate": 1.0,
+      "malformed_or_missing_scene_rate": 0.0,
+      "evidence_exact_match": 0.9818181818181818,
+      "evidence_overlap_recall": 0.9818181818181818,
+      "per_label": {
+        "audible_only": {
+          "precision": 0.6666666666666666,
+          "recall": 1.0,
+          "f1": 0.8,
+          "support": 8
+        },
+        "depicted": {
+          "precision": 0.6666666666666666,
+          "recall": 1.0,
+          "f1": 0.8,
+          "support": 8
+        },
+        "referenced_only": {
+          "precision": 1.0,
+          "recall": 0.8571428571428571,
+          "f1": 0.923076923076923,
+          "support": 28
+        },
+        "uncertain": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 4
+        },
+        "visible": {
+          "precision": 1.0,
+          "recall": 0.9767441860465116,
+          "f1": 0.988235294117647,
+          "support": 172
+        }
+      },
+      "confusion": {
+        "audible_only": {
+          "audible_only": 8,
+          "depicted": 0,
+          "referenced_only": 0,
+          "uncertain": 0,
+          "visible": 0,
+          "missing": 0
+        },
+        "depicted": {
+          "audible_only": 0,
+          "depicted": 8,
+          "referenced_only": 0,
+          "uncertain": 0,
+          "visible": 0,
+          "missing": 0
+        },
+        "referenced_only": {
+          "audible_only": 4,
+          "depicted": 0,
+          "referenced_only": 24,
+          "uncertain": 0,
+          "visible": 0,
+          "missing": 0
+        },
+        "uncertain": {
+          "audible_only": 0,
+          "depicted": 0,
+          "referenced_only": 0,
+          "uncertain": 4,
+          "visible": 0,
+          "missing": 0
+        },
+        "visible": {
+          "audible_only": 0,
+          "depicted": 4,
+          "referenced_only": 0,
+          "uncertain": 0,
+          "visible": 168,
+          "missing": 0
+        }
+      },
+      "family_exact_match": 0.8,
+      "validation_errors": []
+    },
+    "by_template": {
+      "F01": {
+        "n_candidates": 24,
+        "accuracy": 1.0,
+        "macro_f1": 0.4,
+        "evidence_exact_match": 0.9166666666666666,
+        "schema_valid_scene_rate": 1.0,
+        "family_exact_match": 1.0
+      },
+      "F02": {
+        "n_candidates": 16,
+        "accuracy": 1.0,
+        "macro_f1": 0.4,
+        "evidence_exact_match": 1.0,
+        "schema_valid_scene_rate": 1.0,
+        "family_exact_match": 1.0
+      },
+      "F03": {
+        "n_candidates": 24,
+        "accuracy": 1.0,
+        "macro_f1": 0.4,
+        "evidence_exact_match": 1.0,
+        "schema_valid_scene_rate": 1.0,
+        "family_exact_match": 1.0
+      },
+      "F04": {
+        "n_candidates": 24,
+        "accuracy": 1.0,
+        "macro_f1": 0.4,
+        "evidence_exact_match": 0.9166666666666666,
+        "schema_valid_scene_rate": 1.0,
+        "family_exact_match": 1.0
+      },
+      "F05": {
+        "n_candidates": 20,
+        "accuracy": 1.0,
+        "macro_f1": 0.4,
+        "evidence_exact_match": 1.0,
+        "schema_valid_scene_rate": 1.0,
+        "family_exact_match": 1.0
+      },
+      "F06": {
+        "n_candidates": 24,
+        "accuracy": 0.8333333333333334,
+        "macro_f1": 0.3111111111111111,
+        "evidence_exact_match": 1.0,
+        "schema_valid_scene_rate": 1.0,
+        "family_exact_match": 0.0
+      },
+      "F07": {
+        "n_candidates": 24,
+        "accuracy": 0.8333333333333334,
+        "macro_f1": 0.2,
+        "evidence_exact_match": 1.0,
+        "schema_valid_scene_rate": 1.0,
+        "family_exact_match": 0.0
+      },
+      "F08": {
+        "n_candidates": 28,
+        "accuracy": 1.0,
+        "macro_f1": 0.6,
+        "evidence_exact_match": 1.0,
+        "schema_valid_scene_rate": 1.0,
+        "family_exact_match": 1.0
+      },
+      "F09": {
+        "n_candidates": 12,
+        "accuracy": 1.0,
+        "macro_f1": 0.6,
+        "evidence_exact_match": 1.0,
+        "schema_valid_scene_rate": 1.0,
+        "family_exact_match": 1.0
+      },
+      "F10": {
+        "n_candidates": 24,
+        "accuracy": 1.0,
+        "macro_f1": 0.4,
+        "evidence_exact_match": 1.0,
+        "schema_valid_scene_rate": 1.0,
+        "family_exact_match": 1.0
+      }
+    },
+    "errors": {
+      "schema_error_scenes": 0,
+      "label_error_candidates": 8,
+      "evidence_only_error_candidates": 4,
+      "examples": [
+        {
+          "scene_id": "SYN_F01_18_2",
+          "candidate_id": "desk",
+          "error_type": "evidence",
+          "gold": [
+            "严冬站在桌旁"
+          ],
+          "prediction": [
+            "桌上昨天放着一把工作证"
+          ],
+          "text": "内景 办公室 日。严冬站在桌旁，说：“桌上昨天放着一把工作证，今天已经拿走了。”"
+        },
+        {
+          "scene_id": "SYN_F01_18_2",
+          "candidate_id": "key",
+          "error_type": "evidence",
+          "gold": [
+            "桌上昨天放着一把工作证，今天已经拿走了"
+          ],
+          "prediction": [
+            "今天已经拿走了"
+          ],
+          "text": "内景 办公室 日。严冬站在桌旁，说：“桌上昨天放着一把工作证，今天已经拿走了。”"
+        },
+        {
+          "scene_id": "SYN_F04_16_1",
+          "candidate_id": "chair",
+          "error_type": "evidence",
+          "gold": [
+            "搭在椅背上"
+          ],
+          "prediction": [
+            "椅背上"
+          ],
+          "text": "内景 休息室 日。夏禾把灰色头巾搭在椅背上。"
+        },
+        {
+          "scene_id": "SYN_F04_17_1",
+          "candidate_id": "chair",
+          "error_type": "evidence",
+          "gold": [
+            "搭在椅背上"
+          ],
+          "prediction": [
+            "椅背上"
+          ],
+          "text": "内景 休息室 日。严禾把紫色毛衣搭在椅背上。"
+        },
+        {
+          "scene_id": "SYN_F06_16_1",
+          "candidate_id": "photo",
+          "error_type": "label",
+          "gold": "visible",
+          "prediction": "depicted",
+          "text": "内景 卧室 夜。老夏坐在桌旁。温言把一张照片放到老夏面前。"
+        },
+        {
+          "scene_id": "SYN_F06_17_1",
+          "candidate_id": "photo",
+          "error_type": "label",
+          "gold": "visible",
+          "prediction": "depicted",
+          "text": "内景 卧室 夜。老严坐在桌旁。夏禾把一张照片放到老严面前。"
+        },
+        {
+          "scene_id": "SYN_F06_18_1",
+          "candidate_id": "photo",
+          "error_type": "label",
+          "gold": "visible",
+          "prediction": "depicted",
+          "text": "内景 卧室 夜。老赵坐在桌旁。严冬把一张照片放到老赵面前。"
+        },
+        {
+          "scene_id": "SYN_F06_19_1",
+          "candidate_id": "photo",
+          "error_type": "label",
+          "gold": "visible",
+          "prediction": "depicted",
+          "text": "内景 卧室 夜。老林坐在桌旁。赵青把一张照片放到老林面前。"
+        },
+        {
+          "scene_id": "SYN_F07_16_2",
+          "candidate_id": "horse",
+          "error_type": "label",
+          "gold": "referenced_only",
+          "prediction": "audible_only",
+          "text": "内景 客厅 夜。电视关闭着。温言说：“刚才的节目里有一匹黄狗。”"
+        },
+        {
+          "scene_id": "SYN_F07_17_2",
+          "candidate_id": "horse",
+          "error_type": "label",
+          "gold": "referenced_only",
+          "prediction": "audible_only",
+          "text": "内景 客厅 夜。电视关闭着。夏禾说：“刚才的节目里有一匹松鼠。”"
+        },
+        {
+          "scene_id": "SYN_F07_18_2",
+          "candidate_id": "horse",
+          "error_type": "label",
+          "gold": "referenced_only",
+          "prediction": "audible_only",
+          "text": "内景 客厅 夜。电视关闭着。严冬说：“刚才的节目里有一匹水牛。”"
+        },
+        {
+          "scene_id": "SYN_F07_19_2",
+          "candidate_id": "horse",
+          "error_type": "label",
+          "gold": "referenced_only",
+          "prediction": "audible_only",
+          "text": "内景 客厅 夜。电视关闭着。赵青说：“刚才的节目里有一匹山羊。”"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,169 @@
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/398 [00:00<?, ?it/s]Loading weights:   0%|          | 1/398 [00:00<01:04,  6.20it/s]Loading weights:   2%|▏         | 9/398 [00:00<00:09, 40.50it/s]Loading weights:   8%|▊         | 31/398 [00:00<00:03, 110.63it/s]Loading weights:  13%|█▎        | 53/398 [00:00<00:02, 149.46it/s]Loading weights:  19%|█▉        | 77/398 [00:00<00:01, 177.32it/s]Loading weights:  25%|██▌       | 101/398 [00:00<00:01, 197.41it/s]Loading weights:  31%|███       | 122/398 [00:00<00:01, 197.86it/s]Loading weights:  36%|███▌      | 143/398 [00:00<00:01, 197.96it/s]Loading weights:  41%|████      | 164/398 [00:00<00:01, 198.95it/s]Loading weights:  46%|████▋     | 185/398 [00:01<00:01, 196.08it/s]Loading weights:  52%|█████▏    | 207/398 [00:01<00:00, 199.49it/s]Loading weights:  58%|█████▊    | 229/398 [00:01<00:00, 202.22it/s]Loading weights:  63%|██████▎   | 250/398 [00:01<00:00, 202.19it/s]Loading weights:  68%|██████▊   | 271/398 [00:01<00:00, 202.89it/s]Loading weights:  73%|███████▎  | 292/398 [00:01<00:00, 197.63it/s]Loading weights:  79%|███████▊  | 313/398 [00:01<00:00, 196.16it/s]Loading weights:  84%|████████▍ | 334/398 [00:01<00:00, 198.99it/s]Loading weights:  89%|████████▉ | 355/398 [00:01<00:00, 201.42it/s]Loading weights:  94%|█████████▍| 376/398 [00:02<00:00, 190.45it/s]Loading weights:  99%|█████████▉| 396/398 [00:02<00:00, 185.61it/s]Loading weights: 100%|██████████| 398/398 [00:02<00:00, 182.28it/s]
+1 SYN_F07_00_1 ok
+2 SYN_F07_00_2 ok
+3 SYN_F07_01_1 ok
+4 SYN_F07_01_2 ok
+5 SYN_F07_02_1 ok
+6 SYN_F07_02_2 ok
+7 SYN_F07_03_1 ok
+8 SYN_F07_03_2 ok
+9 SYN_F07_04_1 ok
+10 SYN_F07_04_2 ok
+11 SYN_F07_05_1 ok
+12 SYN_F07_05_2 ok
+13 SYN_F07_06_1 ok
+14 SYN_F07_06_2 ok
+15 SYN_F07_07_1 ok
+16 SYN_F07_07_2 ok
+17 SYN_F07_08_1 ok
+18 SYN_F07_08_2 ok
+19 SYN_F07_09_1 ok
+20 SYN_F07_09_2 ok
+21 SYN_F07_10_1 ok
+22 SYN_F07_10_2 ok
+23 SYN_F07_11_1 ok
+24 SYN_F07_11_2 ok
+25 SYN_F07_12_1 ok
+26 SYN_F07_12_2 ok
+27 SYN_F07_13_1 ok
+28 SYN_F07_13_2 ok
+29 SYN_F07_14_1 ok
+30 SYN_F07_14_2 ok
+31 SYN_F07_15_1 ok
+32 SYN_F07_15_2 ok
+33 SYN_F07_16_1 ok
+34 SYN_F07_16_2 ok
+35 SYN_F07_17_1 malformed
+36 SYN_F07_17_2 ok
+37 SYN_F07_18_1 ok
+38 SYN_F07_18_2 ok
+39 SYN_F07_19_1 ok
+40 SYN_F07_19_2 ok
+41 SYN_F08_00_1 ok
+42 SYN_F08_00_2 ok
+43 SYN_F08_01_1 ok
+44 SYN_F08_01_2 ok
+45 SYN_F08_02_1 ok
+46 SYN_F08_02_2 ok
+47 SYN_F08_03_1 ok
+48 SYN_F08_03_2 ok
+49 SYN_F08_04_1 ok
+50 SYN_F08_04_2 ok
+51 SYN_F08_05_1 ok
+52 SYN_F08_05_2 ok
+53 SYN_F08_06_1 ok
+54 SYN_F08_06_2 ok
+55 SYN_F08_07_1 ok
+56 SYN_F08_07_2 ok
+57 SYN_F08_08_1 ok
+58 SYN_F08_08_2 ok
+59 SYN_F08_09_1 ok
+60 SYN_F08_09_2 ok
+61 SYN_F08_10_1 ok
+62 SYN_F08_10_2 ok
+63 SYN_F08_11_1 ok
+64 SYN_F08_11_2 ok
+65 SYN_F08_12_1 ok
+66 SYN_F08_12_2 ok
+67 SYN_F08_13_1 ok
+68 SYN_F08_13_2 ok
+69 SYN_F08_14_1 ok
+70 SYN_F08_14_2 ok
+71 SYN_F08_15_1 ok
+72 SYN_F08_15_2 ok
+73 SYN_F08_16_1 ok
+74 SYN_F08_16_2 ok
+75 SYN_F08_17_1 ok
+76 SYN_F08_17_2 ok
+77 SYN_F08_18_1 ok
+78 SYN_F08_18_2 ok
+79 SYN_F08_19_1 ok
+80 SYN_F08_19_2 ok
+{
+  "task": "closed_set_scene_realization_state",
+  "reference_tier": "programmatic_synthetic_reference",
+  "n_candidates": 260,
+  "accuracy": 0.9884615384615385,
+  "macro_f1": 0.5984886649874055,
+  "schema_valid_scene_rate": 0.9875,
+  "malformed_or_missing_scene_rate": 0.012499999999999956,
+  "evidence_exact_match": 0.7461538461538462,
+  "evidence_overlap_recall": 0.7461538461538462,
+  "per_label": {
+    "audible_only": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 20
+    },
+    "depicted": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 0
+    },
+    "referenced_only": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 40
+    },
+    "uncertain": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 0
+    },
+    "visible": {
+      "precision": 1.0,
+      "recall": 0.985,
+      "f1": 0.9924433249370278,
+      "support": 200
+    }
+  },
+  "confusion": {
+    "audible_only": {
+      "audible_only": 20,
+      "depicted": 0,
+      "referenced_only": 0,
+      "uncertain": 0,
+      "visible": 0,
+      "missing": 0
+    },
+    "depicted": {
+      "audible_only": 0,
+      "depicted": 0,
+      "referenced_only": 0,
+      "uncertain": 0,
+      "visible": 0,
+      "missing": 0
+    },
+    "referenced_only": {
+      "audible_only": 0,
+      "depicted": 0,
+      "referenced_only": 40,
+      "uncertain": 0,
+      "visible": 0,
+      "missing": 0
+    },
+    "uncertain": {
+      "audible_only": 0,
+      "depicted": 0,
+      "referenced_only": 0,
+      "uncertain": 0,
+      "visible": 0,
+      "missing": 0
+    },
+    "visible": {
+      "audible_only": 0,
+      "depicted": 0,
+      "referenced_only": 0,
+      "uncertain": 0,
+      "visible": 197,
+      "missing": 3
+    }
+  },
+  "family_exact_match": 0.975,
+  "validation_errors": []
+}

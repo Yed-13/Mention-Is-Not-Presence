@@ -1,0 +1,12 @@
+{
+  "metric": "binary_visibility_accuracy",
+  "difference_a_minus_b": 0.37662337662337664,
+  "cluster_bootstrap_95_ci": [
+    0.30625,
+    0.4520547945205479
+  ],
+  "iterations": 10000,
+  "seed": 20260916,
+  "unit": "source_story",
+  "reference_tier": "vistorybench_derived_mit"
+}

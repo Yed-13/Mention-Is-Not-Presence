@@ -1,0 +1,87 @@
+{
+  "task": "closed_set_scene_realization_state",
+  "reference_tier": "programmatic_synthetic_reference",
+  "n_candidates": 220,
+  "accuracy": 0.7954545454545454,
+  "macro_f1": 0.3638615254714326,
+  "schema_valid_scene_rate": 1.0,
+  "malformed_or_missing_scene_rate": 0.0,
+  "evidence_exact_match": 0.05454545454545454,
+  "evidence_overlap_recall": 0.05909090909090909,
+  "per_label": {
+    "audible_only": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 8
+    },
+    "depicted": {
+      "precision": 0.2,
+      "recall": 0.5,
+      "f1": 0.28571428571428575,
+      "support": 8
+    },
+    "referenced_only": {
+      "precision": 0.4897959183673469,
+      "recall": 0.8571428571428571,
+      "f1": 0.6233766233766234,
+      "support": 28
+    },
+    "uncertain": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 4
+    },
+    "visible": {
+      "precision": 0.9735099337748344,
+      "recall": 0.8546511627906976,
+      "f1": 0.9102167182662538,
+      "support": 172
+    }
+  },
+  "confusion": {
+    "audible_only": {
+      "audible_only": 0,
+      "depicted": 0,
+      "referenced_only": 8,
+      "uncertain": 0,
+      "visible": 0,
+      "missing": 0
+    },
+    "depicted": {
+      "audible_only": 0,
+      "depicted": 4,
+      "referenced_only": 4,
+      "uncertain": 0,
+      "visible": 0,
+      "missing": 0
+    },
+    "referenced_only": {
+      "audible_only": 0,
+      "depicted": 0,
+      "referenced_only": 24,
+      "uncertain": 0,
+      "visible": 4,
+      "missing": 0
+    },
+    "uncertain": {
+      "audible_only": 0,
+      "depicted": 0,
+      "referenced_only": 4,
+      "uncertain": 0,
+      "visible": 0,
+      "missing": 0
+    },
+    "visible": {
+      "audible_only": 0,
+      "depicted": 16,
+      "referenced_only": 9,
+      "uncertain": 0,
+      "visible": 147,
+      "missing": 0
+    }
+  },
+  "family_exact_match": 0.375,
+  "validation_errors": []
+}
