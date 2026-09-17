@@ -1,0 +1,34 @@
+[
+  {
+    "name": "fold_2_s43_original_direct",
+    "gold": "C:\\Users\\76962\\tallip_revision_20260917\\data\\expansion\\template_fold_2_test.jsonl",
+    "prompts": "C:\\Users\\76962\\tallip_revision_20260917\\results\\revision\\gpu\\fold_2_s43_original_direct_prompts.jsonl",
+    "raw": "C:\\Users\\76962\\tallip_revision_20260917\\results\\revision\\gpu\\fold_2_s43_original_direct_raw.jsonl",
+    "predictions": "C:\\Users\\76962\\tallip_revision_20260917\\results\\revision\\gpu\\fold_2_s43_original_direct_predictions.jsonl",
+    "metrics": "C:\\Users\\76962\\tallip_revision_20260917\\results\\revision\\gpu\\fold_2_s43_original_direct_metrics.json"
+  },
+  {
+    "name": "fold_2_s43_original_guideline",
+    "gold": "C:\\Users\\76962\\tallip_revision_20260917\\data\\expansion\\template_fold_2_test.jsonl",
+    "prompts": "C:\\Users\\76962\\tallip_revision_20260917\\results\\revision\\gpu\\fold_2_s43_original_guideline_prompts.jsonl",
+    "raw": "C:\\Users\\76962\\tallip_revision_20260917\\results\\revision\\gpu\\fold_2_s43_original_guideline_raw.jsonl",
+    "predictions": "C:\\Users\\76962\\tallip_revision_20260917\\results\\revision\\gpu\\fold_2_s43_original_guideline_predictions.jsonl",
+    "metrics": "C:\\Users\\76962\\tallip_revision_20260917\\results\\revision\\gpu\\fold_2_s43_original_guideline_metrics.json"
+  },
+  {
+    "name": "fold_2_s43_repair_direct",
+    "gold": "C:\\Users\\76962\\tallip_revision_20260917\\results\\revision\\gpu\\fold_2_repair_test.jsonl",
+    "prompts": "C:\\Users\\76962\\tallip_revision_20260917\\results\\revision\\gpu\\fold_2_s43_repair_direct_prompts.jsonl",
+    "raw": "C:\\Users\\76962\\tallip_revision_20260917\\results\\revision\\gpu\\fold_2_s43_repair_direct_raw.jsonl",
+    "predictions": "C:\\Users\\76962\\tallip_revision_20260917\\results\\revision\\gpu\\fold_2_s43_repair_direct_predictions.jsonl",
+    "metrics": "C:\\Users\\76962\\tallip_revision_20260917\\results\\revision\\gpu\\fold_2_s43_repair_direct_metrics.json"
+  },
+  {
+    "name": "fold_2_s43_repair_guideline",
+    "gold": "C:\\Users\\76962\\tallip_revision_20260917\\results\\revision\\gpu\\fold_2_repair_test.jsonl",
+    "prompts": "C:\\Users\\76962\\tallip_revision_20260917\\results\\revision\\gpu\\fold_2_s43_repair_guideline_prompts.jsonl",
+    "raw": "C:\\Users\\76962\\tallip_revision_20260917\\results\\revision\\gpu\\fold_2_s43_repair_guideline_raw.jsonl",
+    "predictions": "C:\\Users\\76962\\tallip_revision_20260917\\results\\revision\\gpu\\fold_2_s43_repair_guideline_predictions.jsonl",
+    "metrics": "C:\\Users\\76962\\tallip_revision_20260917\\results\\revision\\gpu\\fold_2_s43_repair_guideline_metrics.json"
+  }
+]

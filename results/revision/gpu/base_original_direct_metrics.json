@@ -1,0 +1,87 @@
+{
+  "task": "closed_set_scene_realization_state",
+  "reference_tier": "programmatic_synthetic_reference",
+  "n_candidates": 1100,
+  "accuracy": 0.4445454545454545,
+  "macro_f1": 0.4866233376368472,
+  "schema_valid_scene_rate": 0.9375,
+  "malformed_or_missing_scene_rate": 0.0625,
+  "evidence_exact_match": 0.08636363636363636,
+  "evidence_overlap_recall": 0.09454545454545454,
+  "per_label": {
+    "audible_only": {
+      "precision": 0.16541353383458646,
+      "recall": 0.55,
+      "f1": 0.2543352601156069,
+      "support": 40
+    },
+    "depicted": {
+      "precision": 0.06190476190476191,
+      "recall": 0.65,
+      "f1": 0.11304347826086956,
+      "support": 40
+    },
+    "referenced_only": {
+      "precision": 0.7701149425287356,
+      "recall": 0.9571428571428572,
+      "f1": 0.8535031847133758,
+      "support": 140
+    },
+    "uncertain": {
+      "precision": 0.7647058823529411,
+      "recall": 0.65,
+      "f1": 0.7027027027027027,
+      "support": 20
+    },
+    "visible": {
+      "precision": 1.0,
+      "recall": 0.34186046511627904,
+      "f1": 0.509532062391681,
+      "support": 860
+    }
+  },
+  "confusion": {
+    "audible_only": {
+      "audible_only": 22,
+      "depicted": 0,
+      "referenced_only": 5,
+      "uncertain": 0,
+      "visible": 0,
+      "missing": 13
+    },
+    "depicted": {
+      "audible_only": 0,
+      "depicted": 26,
+      "referenced_only": 10,
+      "uncertain": 3,
+      "visible": 0,
+      "missing": 1
+    },
+    "referenced_only": {
+      "audible_only": 3,
+      "depicted": 1,
+      "referenced_only": 134,
+      "uncertain": 0,
+      "visible": 0,
+      "missing": 2
+    },
+    "uncertain": {
+      "audible_only": 0,
+      "depicted": 0,
+      "referenced_only": 0,
+      "uncertain": 13,
+      "visible": 0,
+      "missing": 7
+    },
+    "visible": {
+      "audible_only": 108,
+      "depicted": 393,
+      "referenced_only": 25,
+      "uncertain": 1,
+      "visible": 294,
+      "missing": 39
+    }
+  },
+  "family_exact_match": 0.015,
+  "validation_errors": []
+}

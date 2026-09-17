@@ -1,0 +1,173 @@
+{
+  "task": "closed_set_scene_realization_state",
+  "reference_tier": "programmatic_synthetic_reference",
+  "n_candidates": 260,
+  "accuracy": 0.7692307692307693,
+  "macro_f1": 0.500558251469602,
+  "schema_valid_scene_rate": 0.7875,
+  "malformed_or_missing_scene_rate": 0.21250000000000002,
+  "evidence_exact_match": 0.5307692307692308,
+  "evidence_overlap_recall": 0.5384615384615384,
+  "per_label": {
+    "audible_only": {
+      "precision": 1.0,
+      "recall": 0.6,
+      "f1": 0.7499999999999999,
+      "support": 20
+    },
+    "depicted": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 0
+    },
+    "referenced_only": {
+      "precision": 1.0,
+      "recall": 0.775,
+      "f1": 0.8732394366197184,
+      "support": 40
+    },
+    "uncertain": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 0
+    },
+    "visible": {
+      "precision": 1.0,
+      "recall": 0.785,
+      "f1": 0.8795518207282913,
+      "support": 200
+    }
+  },
+  "confusion": {
+    "audible_only": {
+      "audible_only": 12,
+      "depicted": 0,
+      "referenced_only": 0,
+      "uncertain": 0,
+      "visible": 0,
+      "missing": 8
+    },
+    "depicted": {
+      "audible_only": 0,
+      "depicted": 0,
+      "referenced_only": 0,
+      "uncertain": 0,
+      "visible": 0,
+      "missing": 0
+    },
+    "referenced_only": {
+      "audible_only": 0,
+      "depicted": 0,
+      "referenced_only": 31,
+      "uncertain": 0,
+      "visible": 0,
+      "missing": 9
+    },
+    "uncertain": {
+      "audible_only": 0,
+      "depicted": 0,
+      "referenced_only": 0,
+      "uncertain": 0,
+      "visible": 0,
+      "missing": 0
+    },
+    "visible": {
+      "audible_only": 0,
+      "depicted": 0,
+      "referenced_only": 0,
+      "uncertain": 0,
+      "visible": 157,
+      "missing": 43
+    }
+  },
+  "family_exact_match": 0.65,
+  "validation_errors": [
+    {
+      "scene_id": "R2_SYN_F08_00_1",
+      "candidate_id": "wangjie",
+      "error": "invalid_evidence"
+    },
+    {
+      "scene_id": "R2_SYN_F08_00_2",
+      "candidate_id": "wangjie",
+      "error": "invalid_evidence"
+    },
+    {
+      "scene_id": "R2_SYN_F08_01_1",
+      "candidate_id": "wangjie",
+      "error": "invalid_evidence"
+    },
+    {
+      "scene_id": "R2_SYN_F08_02_1",
+      "candidate_id": "wangjie",
+      "error": "invalid_evidence"
+    },
+    {
+      "scene_id": "R2_SYN_F08_03_2",
+      "candidate_id": "wangjie",
+      "error": "invalid_evidence"
+    },
+    {
+      "scene_id": "R2_SYN_F08_04_1",
+      "candidate_id": "wangjie",
+      "error": "invalid_evidence"
+    },
+    {
+      "scene_id": "R2_SYN_F08_04_2",
+      "candidate_id": "wangjie",
+      "error": "invalid_evidence"
+    },
+    {
+      "scene_id": "R2_SYN_F08_05_1",
+      "candidate_id": "wangjie",
+      "error": "invalid_evidence"
+    },
+    {
+      "scene_id": "R2_SYN_F08_06_1",
+      "candidate_id": "wangjie",
+      "error": "invalid_evidence"
+    },
+    {
+      "scene_id": "R2_SYN_F08_07_1",
+      "candidate_id": "wangjie",
+      "error": "invalid_evidence"
+    },
+    {
+      "scene_id": "R2_SYN_F08_07_2",
+      "candidate_id": "wangjie",
+      "error": "invalid_evidence"
+    },
+    {
+      "scene_id": "R2_SYN_F08_09_1",
+      "candidate_id": "wangjie",
+      "error": "invalid_evidence"
+    },
+    {
+      "scene_id": "R2_SYN_F08_10_2",
+      "candidate_id": "wangjie",
+      "error": "invalid_evidence"
+    },
+    {
+      "scene_id": "R2_SYN_F08_11_2",
+      "candidate_id": "wangjie",
+      "error": "invalid_evidence"
+    },
+    {
+      "scene_id": "R2_SYN_F08_12_2",
+      "candidate_id": "wangjie",
+      "error": "invalid_evidence"
+    },
+    {
+      "scene_id": "R2_SYN_F08_18_2",
+      "candidate_id": "wangjie",
+      "error": "invalid_evidence"
+    },
+    {
+      "scene_id": "R2_SYN_F08_19_2",
+      "candidate_id": "wangjie",
+      "error": "invalid_evidence"
+    }
+  ]
+}

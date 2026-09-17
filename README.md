@@ -4,7 +4,7 @@ ScriptBreak-ZH is an evidence-grounded scene-realization benchmark for Chinese s
 
 The repository contains:
 
-- a 400-scene controlled contrast corpus grouped into 200 leakage-safe families;
+- a 400-record controlled contrast corpus grouped into 200 family-disjoint pairs (381 distinct texts; the repeated F09 uncertainty sentence crosses the standard splits);
 - a 77-shot cross-source visibility set derived from ViStoryBench;
 - frozen direct and guideline prompts;
 - Qwen3-4B inference and QLoRA training entry points;
@@ -40,7 +40,7 @@ make verify
 
 `make verify` checks data counts, split isolation, external-set constraints, and key reported values.
 
-The completed expansion used two RTX 4090 D GPUs. Its recorded wall time, conservative GPU-hour upper bound, and stage timestamps are documented in [docs/COMPUTE_LOG.md](docs/COMPUTE_LOG.md).
+The original expansion used two RTX 4090 D GPUs. The separate revision adds 15 RTX 5090 training runs and 64 inference conditions, with matched frozen controls, three seeds, and paired original/repaired tests. See [revision results](docs/REVISION_RESULTS.md), [protocol](docs/REVISION_PROTOCOL.md), and [compute log](docs/COMPUTE_LOG.md). Recompute the complete replication with `python3 src/summarize_revision.py`; the results include prompt-effect reversals, not only favorable comparisons.
 
 The expansion design can be regenerated and audited without a GPU:
 

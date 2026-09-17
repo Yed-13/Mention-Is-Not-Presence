@@ -1,0 +1,103 @@
+{
+  "task": "closed_set_scene_realization_state",
+  "reference_tier": "programmatic_synthetic_reference",
+  "n_candidates": 200,
+  "accuracy": 0.965,
+  "macro_f1": 0.5764157228514324,
+  "schema_valid_scene_rate": 0.9625,
+  "malformed_or_missing_scene_rate": 0.03749999999999998,
+  "evidence_exact_match": 0.745,
+  "evidence_overlap_recall": 0.76,
+  "per_label": {
+    "audible_only": {
+      "precision": 0.9444444444444444,
+      "recall": 0.85,
+      "f1": 0.8947368421052632,
+      "support": 20
+    },
+    "depicted": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 0
+    },
+    "referenced_only": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 20
+    },
+    "uncertain": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 0
+    },
+    "visible": {
+      "precision": 1.0,
+      "recall": 0.975,
+      "f1": 0.9873417721518987,
+      "support": 160
+    }
+  },
+  "confusion": {
+    "audible_only": {
+      "audible_only": 17,
+      "depicted": 0,
+      "referenced_only": 0,
+      "uncertain": 0,
+      "visible": 0,
+      "missing": 3
+    },
+    "depicted": {
+      "audible_only": 0,
+      "depicted": 0,
+      "referenced_only": 0,
+      "uncertain": 0,
+      "visible": 0,
+      "missing": 0
+    },
+    "referenced_only": {
+      "audible_only": 0,
+      "depicted": 0,
+      "referenced_only": 20,
+      "uncertain": 0,
+      "visible": 0,
+      "missing": 0
+    },
+    "uncertain": {
+      "audible_only": 0,
+      "depicted": 0,
+      "referenced_only": 0,
+      "uncertain": 0,
+      "visible": 0,
+      "missing": 0
+    },
+    "visible": {
+      "audible_only": 1,
+      "depicted": 0,
+      "referenced_only": 0,
+      "uncertain": 0,
+      "visible": 156,
+      "missing": 3
+    }
+  },
+  "family_exact_match": 0.9,
+  "validation_errors": [
+    {
+      "scene_id": "SYN_F02_13_2",
+      "candidate_id": "laozhou",
+      "error": "invalid_evidence"
+    },
+    {
+      "scene_id": "SYN_F02_15_2",
+      "candidate_id": "laozhou",
+      "error": "invalid_evidence"
+    },
+    {
+      "scene_id": "SYN_F02_16_2",
+      "candidate_id": "laozhou",
+      "error": "invalid_evidence"
+    }
+  ]
+}

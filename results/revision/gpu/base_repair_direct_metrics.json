@@ -1,0 +1,87 @@
+{
+  "task": "closed_set_scene_realization_state",
+  "reference_tier": "programmatic_synthetic_reference",
+  "n_candidates": 1100,
+  "accuracy": 0.47363636363636363,
+  "macro_f1": 0.5461049615059834,
+  "schema_valid_scene_rate": 0.9725,
+  "malformed_or_missing_scene_rate": 0.02749999999999997,
+  "evidence_exact_match": 0.07727272727272727,
+  "evidence_overlap_recall": 0.08454545454545455,
+  "per_label": {
+    "audible_only": {
+      "precision": 0.2097902097902098,
+      "recall": 0.75,
+      "f1": 0.32786885245901637,
+      "support": 40
+    },
+    "depicted": {
+      "precision": 0.06164383561643835,
+      "recall": 0.675,
+      "f1": 0.11297071129707113,
+      "support": 40
+    },
+    "referenced_only": {
+      "precision": 0.8636363636363636,
+      "recall": 0.95,
+      "f1": 0.9047619047619048,
+      "support": 140
+    },
+    "uncertain": {
+      "precision": 0.85,
+      "recall": 0.85,
+      "f1": 0.85,
+      "support": 20
+    },
+    "visible": {
+      "precision": 1.0,
+      "recall": 0.36511627906976746,
+      "f1": 0.534923339011925,
+      "support": 860
+    }
+  },
+  "confusion": {
+    "audible_only": {
+      "audible_only": 30,
+      "depicted": 1,
+      "referenced_only": 2,
+      "uncertain": 0,
+      "visible": 0,
+      "missing": 7
+    },
+    "depicted": {
+      "audible_only": 1,
+      "depicted": 27,
+      "referenced_only": 9,
+      "uncertain": 3,
+      "visible": 0,
+      "missing": 0
+    },
+    "referenced_only": {
+      "audible_only": 3,
+      "depicted": 4,
+      "referenced_only": 133,
+      "uncertain": 0,
+      "visible": 0,
+      "missing": 0
+    },
+    "uncertain": {
+      "audible_only": 0,
+      "depicted": 1,
+      "referenced_only": 1,
+      "uncertain": 17,
+      "visible": 0,
+      "missing": 1
+    },
+    "visible": {
+      "audible_only": 109,
+      "depicted": 405,
+      "referenced_only": 9,
+      "uncertain": 0,
+      "visible": 314,
+      "missing": 23
+    }
+  },
+  "family_exact_match": 0.015,
+  "validation_errors": []
+}

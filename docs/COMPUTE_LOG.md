@@ -1,5 +1,17 @@
 # Compute log
 
+## Completed RTX 5090 revision
+
+The separate revision matrix used one 32 GB RTX 5090 for 15 adapter-training
+runs and 64 inference conditions (6,400 scene generations). All completion
+markers and outputs are included under `results/revision/gpu/`.
+Generation-batch timers sum to 5,362.286 seconds; reported trainer runtimes sum
+to 2,133.1 seconds. The combined timed execution is **2.082 hours** on one GPU,
+excluding model loading and setup outside those timers. This is not measured
+device-active utilization or an energy estimate. See `REVISION_RESULTS.md` for
+the counting method and `results/revision/environment.json` for the exact
+software and model revision. Original-platform timing below remains separate.
+
 ## Reported expansion run
 
 - Hardware: 2 × NVIDIA GeForce RTX 4090 D.

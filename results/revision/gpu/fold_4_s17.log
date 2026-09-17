@@ -1,0 +1,46 @@
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/398 [00:00<?, ?it/s]Loading weights:   0%|          | 1/398 [00:00<02:06,  3.15it/s]Loading weights:   1%|          | 4/398 [00:00<00:36, 10.79it/s]Loading weights:   4%|▍         | 15/398 [00:00<00:09, 39.55it/s]Loading weights:   7%|▋         | 26/398 [00:00<00:06, 59.95it/s]Loading weights:  10%|▉         | 38/398 [00:00<00:04, 72.90it/s]Loading weights:  12%|█▏        | 49/398 [00:00<00:04, 83.07it/s]Loading weights:  16%|█▌        | 63/398 [00:00<00:03, 99.00it/s]Loading weights:  19%|█▊        | 74/398 [00:01<00:03, 101.26it/s]Loading weights:  21%|██▏       | 85/398 [00:01<00:03, 103.53it/s]Loading weights:  24%|██▍       | 96/398 [00:01<00:02, 104.48it/s]Loading weights:  27%|██▋       | 107/398 [00:01<00:02, 105.44it/s]Loading weights:  30%|██▉       | 118/398 [00:01<00:02, 105.83it/s]Loading weights:  32%|███▏      | 129/398 [00:01<00:02, 106.14it/s]Loading weights:  35%|███▌      | 140/398 [00:01<00:02, 106.21it/s]Loading weights:  38%|███▊      | 152/398 [00:01<00:02, 107.07it/s]Loading weights:  41%|████▏     | 165/398 [00:01<00:02, 110.28it/s]Loading weights:  44%|████▍     | 177/398 [00:02<00:01, 112.19it/s]Loading weights:  48%|████▊     | 191/398 [00:02<00:01, 114.94it/s]Loading weights:  52%|█████▏    | 207/398 [00:02<00:01, 124.83it/s]Loading weights:  56%|█████▌    | 223/398 [00:02<00:01, 132.98it/s]Loading weights:  60%|█████▉    | 237/398 [00:02<00:01, 129.06it/s]Loading weights:  64%|██████▍   | 254/398 [00:02<00:01, 140.25it/s]Loading weights:  68%|██████▊   | 269/398 [00:02<00:00, 129.78it/s]Loading weights:  72%|███████▏  | 286/398 [00:02<00:00, 138.02it/s]Loading weights:  76%|███████▌  | 301/398 [00:02<00:00, 130.84it/s]Loading weights:  79%|███████▉  | 316/398 [00:03<00:00, 135.43it/s]Loading weights:  84%|████████▎ | 333/398 [00:03<00:00, 137.99it/s]Loading weights:  87%|████████▋ | 347/398 [00:03<00:00, 133.40it/s]Loading weights:  92%|█████████▏| 366/398 [00:03<00:00, 141.66it/s]Loading weights:  96%|█████████▌| 381/398 [00:03<00:00, 137.82it/s]Loading weights: 100%|█████████▉| 397/398 [00:03<00:00, 143.36it/s]Loading weights: 100%|██████████| 398/398 [00:03<00:00, 110.58it/s]
+fold_4_s17_original_direct 8 / 80 batch_seconds=7.61
+fold_4_s17_original_direct 16 / 80 batch_seconds=7.41
+fold_4_s17_original_direct 24 / 80 batch_seconds=7.38
+fold_4_s17_original_direct 32 / 80 batch_seconds=7.67
+fold_4_s17_original_direct 40 / 80 batch_seconds=7.41
+fold_4_s17_original_direct 48 / 80 batch_seconds=9.30
+fold_4_s17_original_direct 56 / 80 batch_seconds=8.84
+fold_4_s17_original_direct 64 / 80 batch_seconds=9.22
+fold_4_s17_original_direct 72 / 80 batch_seconds=9.30
+fold_4_s17_original_direct 80 / 80 batch_seconds=9.06
+COMPLETE fold_4_s17_original_direct 0.5772425828970331
+fold_4_s17_original_guideline 8 / 80 batch_seconds=7.64
+fold_4_s17_original_guideline 16 / 80 batch_seconds=7.47
+fold_4_s17_original_guideline 24 / 80 batch_seconds=7.59
+fold_4_s17_original_guideline 32 / 80 batch_seconds=7.53
+fold_4_s17_original_guideline 40 / 80 batch_seconds=7.51
+fold_4_s17_original_guideline 48 / 80 batch_seconds=9.02
+fold_4_s17_original_guideline 56 / 80 batch_seconds=9.33
+fold_4_s17_original_guideline 64 / 80 batch_seconds=9.26
+fold_4_s17_original_guideline 72 / 80 batch_seconds=10.64
+fold_4_s17_original_guideline 80 / 80 batch_seconds=9.36
+COMPLETE fold_4_s17_original_guideline 0.6
+fold_4_s17_repair_direct 8 / 80 batch_seconds=7.05
+fold_4_s17_repair_direct 16 / 80 batch_seconds=7.53
+fold_4_s17_repair_direct 24 / 80 batch_seconds=7.19
+fold_4_s17_repair_direct 32 / 80 batch_seconds=8.14
+fold_4_s17_repair_direct 40 / 80 batch_seconds=8.38
+fold_4_s17_repair_direct 48 / 80 batch_seconds=9.28
+fold_4_s17_repair_direct 56 / 80 batch_seconds=9.36
+fold_4_s17_repair_direct 64 / 80 batch_seconds=9.12
+fold_4_s17_repair_direct 72 / 80 batch_seconds=9.20
+fold_4_s17_repair_direct 80 / 80 batch_seconds=9.14
+COMPLETE fold_4_s17_repair_direct 0.5697401236129684
+fold_4_s17_repair_guideline 8 / 80 batch_seconds=7.28
+fold_4_s17_repair_guideline 16 / 80 batch_seconds=7.49
+fold_4_s17_repair_guideline 24 / 80 batch_seconds=7.55
+fold_4_s17_repair_guideline 32 / 80 batch_seconds=7.91
+fold_4_s17_repair_guideline 40 / 80 batch_seconds=8.05
+fold_4_s17_repair_guideline 48 / 80 batch_seconds=9.44
+fold_4_s17_repair_guideline 56 / 80 batch_seconds=9.31
+fold_4_s17_repair_guideline 64 / 80 batch_seconds=9.25
+fold_4_s17_repair_guideline 72 / 80 batch_seconds=9.26
+fold_4_s17_repair_guideline 80 / 80 batch_seconds=9.33
+COMPLETE fold_4_s17_repair_guideline 0.6

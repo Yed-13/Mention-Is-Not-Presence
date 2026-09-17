@@ -1,0 +1,126 @@
+{
+  "standard_base_guideline_vs_direct": {
+    "iterations": 10000,
+    "seed": 20260917,
+    "unit": "contrast_family",
+    "stratification": "template_id",
+    "interpretation": "Conditional uncertainty over sampled clusters for fixed models, templates and predictions; not training or source-population uncertainty.",
+    "n_clusters": 40,
+    "macro_f1": {
+      "a": 0.6474700805636058,
+      "b": 0.5116517495565877,
+      "difference_a_minus_b": 0.13581833100701812,
+      "cluster_bootstrap_95_ci": [
+        0.10013016334574742,
+        0.1683874378518097
+      ]
+    },
+    "family_exact_match": {
+      "a": 0.175,
+      "b": 0.0,
+      "difference_a_minus_b": 0.175,
+      "cluster_bootstrap_95_ci": [
+        0.125,
+        0.2
+      ]
+    },
+    "files": {
+      "reference": "data/synthetic/test.jsonl",
+      "a": "results/raw/guideline_predictions.jsonl",
+      "b": "results/raw/direct_predictions.jsonl"
+    }
+  },
+  "standard_qlora17_vs_base_direct": {
+    "iterations": 10000,
+    "seed": 20260917,
+    "unit": "contrast_family",
+    "stratification": "template_id",
+    "interpretation": "Conditional uncertainty over sampled clusters for fixed models, templates and predictions; not training or source-population uncertainty.",
+    "n_clusters": 40,
+    "macro_f1": {
+      "a": 1.0,
+      "b": 0.5116517495565877,
+      "difference_a_minus_b": 0.48834825044341235,
+      "cluster_bootstrap_95_ci": [
+        0.45083206648424046,
+        0.5243094916779127
+      ]
+    },
+    "family_exact_match": {
+      "a": 1.0,
+      "b": 0.0,
+      "difference_a_minus_b": 1.0,
+      "cluster_bootstrap_95_ci": [
+        1.0,
+        1.0
+      ]
+    },
+    "files": {
+      "reference": "data/synthetic/test.jsonl",
+      "a": "results/raw/qlora_s17_direct_predictions.jsonl",
+      "b": "results/raw/direct_predictions.jsonl"
+    }
+  },
+  "holdout_guideline_vs_direct": {
+    "iterations": 10000,
+    "seed": 20260917,
+    "unit": "contrast_family",
+    "stratification": "template_id",
+    "interpretation": "Conditional uncertainty over sampled clusters for fixed models, templates and predictions; not training or source-population uncertainty.",
+    "n_clusters": 200,
+    "macro_f1": {
+      "a": 0.9497435897435897,
+      "b": 0.7994557527383471,
+      "difference_a_minus_b": 0.15028783700524262,
+      "cluster_bootstrap_95_ci": [
+        0.11019991254560835,
+        0.19910214089830336
+      ]
+    },
+    "family_exact_match": {
+      "a": 0.865,
+      "b": 0.77,
+      "difference_a_minus_b": 0.09499999999999997,
+      "cluster_bootstrap_95_ci": [
+        0.05999999999999994,
+        0.13
+      ]
+    },
+    "files": {
+      "reference": "data/synthetic/corpus.jsonl",
+      "a": "results/expansion/raw/qwen3_4b_template_holdout_pooled_guideline_predictions.jsonl",
+      "b": "results/expansion/raw/qwen3_4b_template_holdout_pooled_direct_predictions.jsonl"
+    }
+  },
+  "external_base_guideline_vs_direct": {
+    "iterations": 10000,
+    "seed": 20260917,
+    "unit": "source_story",
+    "stratification": "none",
+    "interpretation": "Conditional uncertainty over sampled clusters for fixed models, templates and predictions; not training or source-population uncertainty.",
+    "n_clusters": 48,
+    "macro_f1": {
+      "a": 0.9805120850381743,
+      "b": 0.6306818181818181,
+      "difference_a_minus_b": 0.3498302668563562,
+      "cluster_bootstrap_95_ci": [
+        0.2811939218238271,
+        0.42621161882045067
+      ]
+    },
+    "family_exact_match": {
+      "a": 0.9375,
+      "b": 0.16666666666666666,
+      "difference_a_minus_b": 0.7708333333333334,
+      "cluster_bootstrap_95_ci": [
+        0.6458333333333333,
+        0.875
+      ]
+    },
+    "files": {
+      "reference": "data/external/vistory_visibility.jsonl",
+      "a": "results/raw/vistory_base_guideline_predictions.jsonl",
+      "b": "results/raw/vistory_base_direct_predictions.jsonl"
+    }
+  }
+}

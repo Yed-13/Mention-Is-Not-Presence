@@ -12,6 +12,12 @@ The controlled resource contains 400 short Chinese screenplay scenes in 200 two-
 
 All members of a contrast family remain in one split. Each candidate contains an entity type, one of five realization states, and exact evidence spans. Records use `status=approved_synthetic` and `annotation_source=programmatic_by_construction`.
 
+Family isolation does not imply text isolation. The F09 uncertainty sentence
+is repeated 20 times across standard splits, leaving 381 distinct texts.
+`CONSTRUCTION_AUDIT.md` documents the duplication, non-exhaustive lexical
+warnings, recovered seed scenes, and deterministic generator. These references
+have not undergone independent human validation.
+
 ## Generalization partitions
 
 `data/expansion/` adds two predeclared views of the same controlled corpus:
@@ -25,7 +31,7 @@ Across the five folds, every template is held out exactly once. These files add 
 
 The external resource contains 77 shots from 48 ViStoryBench stories and 154 candidates, balanced between `visible` and `not_visible`. It is deterministically derived from the Chinese plot, setting, static-shot-description, and appearing-character fields. Each record retains dataset, story, shot, and MIT-license metadata.
 
-The external resource evaluates binary visibility. Five-state system outputs are collapsed to `visible` versus all remaining legal states during scoring. Output validity checks complete candidate coverage and legal state strings. Because the derivation does not supply independently adjudicated rationale boundaries, generated evidence is retained for qualitative audit but is not scored on this resource. External results are not pooled with the controlled five-state results.
+The external resource evaluates binary consistency with source fields, not independently adjudicated visibility. Five-state system outputs are collapsed to `visible` versus all remaining legal states during scoring. Output validity checks complete candidate coverage and legal state strings. Because the derivation does not supply independently adjudicated rationale boundaries, generated evidence is retained for qualitative audit but is not scored on this resource. External results are not pooled with the controlled five-state results.
 
 Source: [ViStoryBench dataset](https://huggingface.co/datasets/ViStoryBench/ViStoryBench) and [paper](https://arxiv.org/abs/2505.24862).
 

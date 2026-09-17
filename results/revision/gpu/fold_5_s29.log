@@ -1,0 +1,46 @@
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/398 [00:00<?, ?it/s]Loading weights:   0%|          | 1/398 [00:00<02:15,  2.93it/s]Loading weights:   1%|          | 4/398 [00:00<00:38, 10.23it/s]Loading weights:   4%|▍         | 15/398 [00:00<00:10, 37.78it/s]Loading weights:   7%|▋         | 26/398 [00:00<00:06, 57.07it/s]Loading weights:   9%|▉         | 37/398 [00:00<00:05, 70.31it/s]Loading weights:  12%|█▏        | 49/398 [00:00<00:04, 80.10it/s]Loading weights:  17%|█▋        | 66/398 [00:01<00:03, 104.91it/s]Loading weights:  20%|██        | 81/398 [00:01<00:02, 111.93it/s]Loading weights:  24%|██▍       | 97/398 [00:01<00:02, 123.04it/s]Loading weights:  28%|██▊       | 113/398 [00:01<00:02, 128.97it/s]Loading weights:  32%|███▏      | 127/398 [00:01<00:02, 125.99it/s]Loading weights:  37%|███▋      | 146/398 [00:01<00:01, 137.25it/s]Loading weights:  40%|████      | 160/398 [00:01<00:01, 130.95it/s]Loading weights:  44%|████▍     | 176/398 [00:01<00:01, 138.44it/s]Loading weights:  48%|████▊     | 191/398 [00:01<00:01, 136.01it/s]Loading weights:  52%|█████▏    | 207/398 [00:02<00:01, 140.63it/s]Loading weights:  56%|█████▌    | 223/398 [00:02<00:01, 143.29it/s]Loading weights:  60%|█████▉    | 238/398 [00:02<00:01, 140.77it/s]Loading weights:  64%|██████▎   | 253/398 [00:02<00:01, 143.12it/s]Loading weights:  67%|██████▋   | 268/398 [00:02<00:00, 136.18it/s]Loading weights:  71%|███████   | 283/398 [00:02<00:00, 139.57it/s]Loading weights:  75%|███████▌  | 300/398 [00:02<00:00, 141.93it/s]Loading weights:  79%|███████▉  | 315/398 [00:02<00:00, 137.65it/s]Loading weights:  84%|████████▎ | 333/398 [00:02<00:00, 142.56it/s]Loading weights:  87%|████████▋ | 348/398 [00:03<00:00, 139.91it/s]Loading weights:  92%|█████████▏| 366/398 [00:03<00:00, 144.34it/s]Loading weights:  96%|█████████▌| 381/398 [00:03<00:00, 139.34it/s]Loading weights:  99%|█████████▉| 396/398 [00:03<00:00, 140.64it/s]Loading weights: 100%|██████████| 398/398 [00:03<00:00, 118.32it/s]
+fold_5_s29_original_direct 8 / 80 batch_seconds=5.51
+fold_5_s29_original_direct 16 / 80 batch_seconds=5.27
+fold_5_s29_original_direct 24 / 80 batch_seconds=5.23
+fold_5_s29_original_direct 32 / 80 batch_seconds=5.47
+fold_5_s29_original_direct 40 / 80 batch_seconds=5.28
+fold_5_s29_original_direct 48 / 80 batch_seconds=7.50
+fold_5_s29_original_direct 56 / 80 batch_seconds=7.33
+fold_5_s29_original_direct 64 / 80 batch_seconds=7.20
+fold_5_s29_original_direct 72 / 80 batch_seconds=7.50
+fold_5_s29_original_direct 80 / 80 batch_seconds=7.56
+COMPLETE fold_5_s29_original_direct 0.7047619047619047
+fold_5_s29_original_guideline 8 / 80 batch_seconds=5.34
+fold_5_s29_original_guideline 16 / 80 batch_seconds=5.41
+fold_5_s29_original_guideline 24 / 80 batch_seconds=5.47
+fold_5_s29_original_guideline 32 / 80 batch_seconds=5.34
+fold_5_s29_original_guideline 40 / 80 batch_seconds=5.39
+fold_5_s29_original_guideline 48 / 80 batch_seconds=7.62
+fold_5_s29_original_guideline 56 / 80 batch_seconds=7.47
+fold_5_s29_original_guideline 64 / 80 batch_seconds=7.55
+fold_5_s29_original_guideline 72 / 80 batch_seconds=7.38
+fold_5_s29_original_guideline 80 / 80 batch_seconds=7.55
+COMPLETE fold_5_s29_original_guideline 0.5333333333333333
+fold_5_s29_repair_direct 8 / 80 batch_seconds=5.38
+fold_5_s29_repair_direct 16 / 80 batch_seconds=5.25
+fold_5_s29_repair_direct 24 / 80 batch_seconds=5.58
+fold_5_s29_repair_direct 32 / 80 batch_seconds=5.33
+fold_5_s29_repair_direct 40 / 80 batch_seconds=5.44
+fold_5_s29_repair_direct 48 / 80 batch_seconds=7.44
+fold_5_s29_repair_direct 56 / 80 batch_seconds=7.61
+fold_5_s29_repair_direct 64 / 80 batch_seconds=7.31
+fold_5_s29_repair_direct 72 / 80 batch_seconds=7.52
+fold_5_s29_repair_direct 80 / 80 batch_seconds=7.39
+COMPLETE fold_5_s29_repair_direct 0.651114365672139
+fold_5_s29_repair_guideline 8 / 80 batch_seconds=5.44
+fold_5_s29_repair_guideline 16 / 80 batch_seconds=5.66
+fold_5_s29_repair_guideline 24 / 80 batch_seconds=5.50
+fold_5_s29_repair_guideline 32 / 80 batch_seconds=5.53
+fold_5_s29_repair_guideline 40 / 80 batch_seconds=5.48
+fold_5_s29_repair_guideline 48 / 80 batch_seconds=7.47
+fold_5_s29_repair_guideline 56 / 80 batch_seconds=7.69
+fold_5_s29_repair_guideline 64 / 80 batch_seconds=7.58
+fold_5_s29_repair_guideline 72 / 80 batch_seconds=7.55
+fold_5_s29_repair_guideline 80 / 80 batch_seconds=7.67
+COMPLETE fold_5_s29_repair_guideline 0.7052007899934167

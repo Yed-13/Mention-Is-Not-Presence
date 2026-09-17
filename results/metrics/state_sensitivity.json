@@ -1,0 +1,131 @@
+{
+  "description": "Post-hoc scoring sensitivity using fixed predictions; original strict metrics are retained.",
+  "conditions": {
+    "direct": {
+      "reference": "data/synthetic/test.jsonl",
+      "predictions": "results/raw/direct_predictions.jsonl",
+      "strict": {
+        "accuracy": 0.45,
+        "macro_f1": 0.5116517495565877,
+        "n_candidates": 220
+      },
+      "candidate_state_only": {
+        "accuracy": 0.45,
+        "macro_f1": 0.5116517495565877,
+        "n_candidates": 220,
+        "per_label_f1": {
+          "audible_only": 0.2222222222222222,
+          "depicted": 0.0975609756097561,
+          "referenced_only": 0.819672131147541,
+          "uncertain": 0.8888888888888888,
+          "visible": 0.5299145299145299
+        }
+      }
+    },
+    "guideline": {
+      "reference": "data/synthetic/test.jsonl",
+      "predictions": "results/raw/guideline_predictions.jsonl",
+      "strict": {
+        "accuracy": 0.6818181818181818,
+        "macro_f1": 0.6474700805636058,
+        "n_candidates": 220
+      },
+      "candidate_state_only": {
+        "accuracy": 0.6818181818181818,
+        "macro_f1": 0.6474700805636058,
+        "n_candidates": 220,
+        "per_label_f1": {
+          "audible_only": 0.43243243243243246,
+          "depicted": 0.18518518518518517,
+          "referenced_only": 0.8571428571428571,
+          "uncertain": 1.0,
+          "visible": 0.762589928057554
+        }
+      }
+    },
+    "qlora_s17_direct": {
+      "reference": "data/synthetic/test.jsonl",
+      "predictions": "results/raw/qlora_s17_direct_predictions.jsonl",
+      "strict": {
+        "accuracy": 1.0,
+        "macro_f1": 1.0,
+        "n_candidates": 220
+      },
+      "candidate_state_only": {
+        "accuracy": 1.0,
+        "macro_f1": 1.0,
+        "n_candidates": 220,
+        "per_label_f1": {
+          "audible_only": 1.0,
+          "depicted": 1.0,
+          "referenced_only": 1.0,
+          "uncertain": 1.0,
+          "visible": 1.0
+        }
+      }
+    },
+    "qlora_s17_guideline": {
+      "reference": "data/synthetic/test.jsonl",
+      "predictions": "results/raw/qlora_s17_guideline_predictions.jsonl",
+      "strict": {
+        "accuracy": 0.9636363636363636,
+        "macro_f1": 0.902262443438914,
+        "n_candidates": 220
+      },
+      "candidate_state_only": {
+        "accuracy": 0.9636363636363636,
+        "macro_f1": 0.902262443438914,
+        "n_candidates": 220,
+        "per_label_f1": {
+          "audible_only": 0.8,
+          "depicted": 0.8,
+          "referenced_only": 0.9230769230769231,
+          "uncertain": 1.0,
+          "visible": 0.9882352941176471
+        }
+      }
+    },
+    "holdout_direct": {
+      "reference": "data/synthetic/corpus.jsonl",
+      "predictions": "results/expansion/raw/qwen3_4b_template_holdout_pooled_direct_predictions.jsonl",
+      "strict": {
+        "accuracy": 0.9509090909090909,
+        "macro_f1": 0.7994557527383471,
+        "n_candidates": 1100
+      },
+      "candidate_state_only": {
+        "accuracy": 0.9563636363636364,
+        "macro_f1": 0.7932695417865282,
+        "n_candidates": 1100,
+        "per_label_f1": {
+          "audible_only": 0.9873417721518988,
+          "depicted": 0.22641509433962265,
+          "referenced_only": 0.9859154929577465,
+          "uncertain": 0.7878787878787878,
+          "visible": 0.9787965616045845
+        }
+      }
+    },
+    "holdout_guideline": {
+      "reference": "data/synthetic/corpus.jsonl",
+      "predictions": "results/expansion/raw/qwen3_4b_template_holdout_pooled_guideline_predictions.jsonl",
+      "strict": {
+        "accuracy": 0.9545454545454546,
+        "macro_f1": 0.9497435897435897,
+        "n_candidates": 1100
+      },
+      "candidate_state_only": {
+        "accuracy": 0.9745454545454545,
+        "macro_f1": 0.95365297048267,
+        "n_candidates": 1100,
+        "per_label_f1": {
+          "audible_only": 1.0,
+          "depicted": 0.8,
+          "referenced_only": 0.9818181818181818,
+          "uncertain": 1.0,
+          "visible": 0.986446670595168
+        }
+      }
+    }
+  }
+}

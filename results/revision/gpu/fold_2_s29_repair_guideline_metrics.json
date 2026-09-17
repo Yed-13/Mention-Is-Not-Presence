@@ -1,0 +1,117 @@
+{
+  "task": "closed_set_scene_realization_state",
+  "reference_tier": "programmatic_synthetic_reference",
+  "n_candidates": 240,
+  "accuracy": 0.9458333333333333,
+  "macro_f1": 0.38674953629885134,
+  "schema_valid_scene_rate": 0.95,
+  "malformed_or_missing_scene_rate": 0.050000000000000044,
+  "evidence_exact_match": 0.6375,
+  "evidence_overlap_recall": 0.6375,
+  "per_label": {
+    "audible_only": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 0
+    },
+    "depicted": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 0
+    },
+    "referenced_only": {
+      "precision": 0.9743589743589743,
+      "recall": 0.95,
+      "f1": 0.9620253164556962,
+      "support": 40
+    },
+    "uncertain": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 0
+    },
+    "visible": {
+      "precision": 1.0,
+      "recall": 0.945,
+      "f1": 0.9717223650385605,
+      "support": 200
+    }
+  },
+  "confusion": {
+    "audible_only": {
+      "audible_only": 0,
+      "depicted": 0,
+      "referenced_only": 0,
+      "uncertain": 0,
+      "visible": 0,
+      "missing": 0
+    },
+    "depicted": {
+      "audible_only": 0,
+      "depicted": 0,
+      "referenced_only": 0,
+      "uncertain": 0,
+      "visible": 0,
+      "missing": 0
+    },
+    "referenced_only": {
+      "audible_only": 0,
+      "depicted": 0,
+      "referenced_only": 38,
+      "uncertain": 0,
+      "visible": 0,
+      "missing": 2
+    },
+    "uncertain": {
+      "audible_only": 0,
+      "depicted": 0,
+      "referenced_only": 0,
+      "uncertain": 0,
+      "visible": 0,
+      "missing": 0
+    },
+    "visible": {
+      "audible_only": 0,
+      "depicted": 0,
+      "referenced_only": 1,
+      "uncertain": 0,
+      "visible": 189,
+      "missing": 10
+    }
+  },
+  "family_exact_match": 0.875,
+  "validation_errors": [
+    {
+      "scene_id": "R2_SYN_F03_02_1",
+      "candidate_id": "drawer",
+      "error": "invalid_evidence"
+    },
+    {
+      "scene_id": "R2_SYN_F03_02_1",
+      "candidate_id": "scissors",
+      "error": "invalid_evidence"
+    },
+    {
+      "scene_id": "R2_SYN_F03_13_1",
+      "candidate_id": "map",
+      "error": "invalid_candidate_or_state"
+    },
+    {
+      "scene_id": "R2_SYN_F03_13_1",
+      "error": "candidate_set_mismatch"
+    },
+    {
+      "scene_id": "R2_SYN_F04_04_2",
+      "candidate_id": "scarf",
+      "error": "invalid_evidence"
+    },
+    {
+      "scene_id": "R2_SYN_F04_14_2",
+      "candidate_id": "scarf",
+      "error": "invalid_evidence"
+    }
+  ]
+}

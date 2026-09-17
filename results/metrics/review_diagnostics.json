@@ -1,0 +1,1924 @@
+{
+  "evidence": {
+    "direct": {
+      "character_precision": 0.8496212121212122,
+      "character_recall": 0.362390250198915,
+      "character_f1": 0.4752802895731402,
+      "exact_list_match": 0.07727272727272727,
+      "exact_span_hit_rate": 0.07727272727272727
+    },
+    "guideline": {
+      "character_precision": 0.9371212121212121,
+      "character_recall": 0.5556157581641259,
+      "character_f1": 0.6359247822884191,
+      "exact_list_match": 0.32272727272727275,
+      "exact_span_hit_rate": 0.33181818181818185
+    },
+    "qlora_s17_direct": {
+      "character_precision": 1.0,
+      "character_recall": 1.0,
+      "character_f1": 1.0,
+      "exact_list_match": 1.0,
+      "exact_span_hit_rate": 1.0
+    },
+    "qlora_s17_guideline": {
+      "character_precision": 0.9954545454545455,
+      "character_recall": 0.9889473684210526,
+      "character_f1": 0.9910839160839161,
+      "exact_list_match": 0.9818181818181818,
+      "exact_span_hit_rate": 0.9818181818181818
+    },
+    "qlora_s29_direct": {
+      "character_precision": 1.0,
+      "character_recall": 1.0,
+      "character_f1": 1.0,
+      "exact_list_match": 1.0,
+      "exact_span_hit_rate": 1.0
+    },
+    "qlora_s29_guideline": {
+      "character_precision": 0.993939393939394,
+      "character_recall": 1.0,
+      "character_f1": 0.9954545454545455,
+      "exact_list_match": 0.990909090909091,
+      "exact_span_hit_rate": 0.990909090909091
+    },
+    "qlora_s43_direct": {
+      "character_precision": 1.0,
+      "character_recall": 1.0,
+      "character_f1": 1.0,
+      "exact_list_match": 1.0,
+      "exact_span_hit_rate": 1.0
+    },
+    "qlora_s43_guideline": {
+      "character_precision": 0.990909090909091,
+      "character_recall": 0.9851674641148325,
+      "character_f1": 0.9867132867132868,
+      "exact_list_match": 0.9818181818181818,
+      "exact_span_hit_rate": 0.9818181818181818
+    },
+    "holdout_direct": {
+      "character_precision": 0.901043719491567,
+      "character_recall": 0.928592400422544,
+      "character_f1": 0.9034491892469092,
+      "exact_span_hit_rate": 0.8036363636363636
+    },
+    "holdout_guideline": {
+      "character_precision": 0.8941587071612755,
+      "character_recall": 0.8708333135209568,
+      "character_f1": 0.8664352356764585,
+      "exact_span_hit_rate": 0.7563636363636363
+    }
+  },
+  "templates": {
+    "F01": {
+      "direct": {
+        "accuracy": 1.0,
+        "family_exact_match": 1.0,
+        "macro_f1": 0.4,
+        "n_candidates": 120,
+        "per_label": {
+          "audible_only": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "depicted": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "referenced_only": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 20
+          },
+          "uncertain": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "visible": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 100
+          }
+        }
+      },
+      "guideline": {
+        "accuracy": 1.0,
+        "family_exact_match": 1.0,
+        "macro_f1": 0.4,
+        "n_candidates": 120,
+        "per_label": {
+          "audible_only": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "depicted": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "referenced_only": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 20
+          },
+          "uncertain": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "visible": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 100
+          }
+        }
+      }
+    },
+    "F02": {
+      "direct": {
+        "accuracy": 0.9875,
+        "family_exact_match": 0.95,
+        "macro_f1": 0.3948717948717949,
+        "n_candidates": 80,
+        "per_label": {
+          "audible_only": {
+            "precision": 1.0,
+            "recall": 0.95,
+            "f1": 0.9743589743589743,
+            "support": 20
+          },
+          "depicted": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "referenced_only": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "uncertain": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "visible": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 60
+          }
+        }
+      },
+      "guideline": {
+        "accuracy": 1.0,
+        "family_exact_match": 1.0,
+        "macro_f1": 0.4,
+        "n_candidates": 80,
+        "per_label": {
+          "audible_only": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 20
+          },
+          "depicted": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "referenced_only": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "uncertain": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "visible": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 60
+          }
+        }
+      }
+    },
+    "F03": {
+      "direct": {
+        "accuracy": 0.925,
+        "family_exact_match": 0.85,
+        "macro_f1": 0.39057591623036647,
+        "n_candidates": 120,
+        "per_label": {
+          "audible_only": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "depicted": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "referenced_only": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 20
+          },
+          "uncertain": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "visible": {
+            "precision": 1.0,
+            "recall": 0.91,
+            "f1": 0.9528795811518325,
+            "support": 100
+          }
+        }
+      },
+      "guideline": {
+        "accuracy": 0.775,
+        "family_exact_match": 0.7,
+        "macro_f1": 0.3412421952021032,
+        "n_candidates": 120,
+        "per_label": {
+          "audible_only": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "depicted": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "referenced_only": {
+            "precision": 1.0,
+            "recall": 0.7,
+            "f1": 0.8235294117647058,
+            "support": 20
+          },
+          "uncertain": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "visible": {
+            "precision": 1.0,
+            "recall": 0.79,
+            "f1": 0.8826815642458101,
+            "support": 100
+          }
+        }
+      }
+    },
+    "F04": {
+      "direct": {
+        "accuracy": 1.0,
+        "family_exact_match": 1.0,
+        "macro_f1": 0.4,
+        "n_candidates": 120,
+        "per_label": {
+          "audible_only": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "depicted": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "referenced_only": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 20
+          },
+          "uncertain": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "visible": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 100
+          }
+        }
+      },
+      "guideline": {
+        "accuracy": 0.975,
+        "family_exact_match": 0.95,
+        "macro_f1": 0.3928515928515929,
+        "n_candidates": 120,
+        "per_label": {
+          "audible_only": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "depicted": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "referenced_only": {
+            "precision": 1.0,
+            "recall": 0.95,
+            "f1": 0.9743589743589743,
+            "support": 20
+          },
+          "uncertain": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "visible": {
+            "precision": 1.0,
+            "recall": 0.98,
+            "f1": 0.98989898989899,
+            "support": 100
+          }
+        }
+      }
+    },
+    "F05": {
+      "direct": {
+        "accuracy": 1.0,
+        "family_exact_match": 1.0,
+        "macro_f1": 0.4,
+        "n_candidates": 100,
+        "per_label": {
+          "audible_only": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "depicted": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "referenced_only": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 20
+          },
+          "uncertain": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "visible": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 80
+          }
+        }
+      },
+      "guideline": {
+        "accuracy": 1.0,
+        "family_exact_match": 1.0,
+        "macro_f1": 0.4,
+        "n_candidates": 100,
+        "per_label": {
+          "audible_only": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "depicted": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "referenced_only": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 20
+          },
+          "uncertain": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "visible": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 80
+          }
+        }
+      }
+    },
+    "F06": {
+      "direct": {
+        "accuracy": 0.8333333333333334,
+        "family_exact_match": 0.0,
+        "macro_f1": 0.18181818181818182,
+        "n_candidates": 120,
+        "per_label": {
+          "audible_only": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "depicted": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 20
+          },
+          "referenced_only": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "uncertain": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "visible": {
+            "precision": 0.8333333333333334,
+            "recall": 1.0,
+            "f1": 0.9090909090909091,
+            "support": 100
+          }
+        }
+      },
+      "guideline": {
+        "accuracy": 0.8333333333333334,
+        "family_exact_match": 0.0,
+        "macro_f1": 0.3111111111111111,
+        "n_candidates": 120,
+        "per_label": {
+          "audible_only": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "depicted": {
+            "precision": 0.5,
+            "recall": 1.0,
+            "f1": 0.6666666666666666,
+            "support": 20
+          },
+          "referenced_only": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "uncertain": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "visible": {
+            "precision": 1.0,
+            "recall": 0.8,
+            "f1": 0.888888888888889,
+            "support": 100
+          }
+        }
+      }
+    },
+    "F07": {
+      "direct": {
+        "accuracy": 0.975,
+        "family_exact_match": 0.95,
+        "macro_f1": 0.3969543147208122,
+        "n_candidates": 120,
+        "per_label": {
+          "audible_only": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "depicted": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "referenced_only": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 20
+          },
+          "uncertain": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "visible": {
+            "precision": 1.0,
+            "recall": 0.97,
+            "f1": 0.9847715736040609,
+            "support": 100
+          }
+        }
+      },
+      "guideline": {
+        "accuracy": 1.0,
+        "family_exact_match": 1.0,
+        "macro_f1": 0.4,
+        "n_candidates": 120,
+        "per_label": {
+          "audible_only": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "depicted": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "referenced_only": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 20
+          },
+          "uncertain": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "visible": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 100
+          }
+        }
+      }
+    },
+    "F08": {
+      "direct": {
+        "accuracy": 1.0,
+        "family_exact_match": 1.0,
+        "macro_f1": 0.6,
+        "n_candidates": 140,
+        "per_label": {
+          "audible_only": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 20
+          },
+          "depicted": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "referenced_only": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 20
+          },
+          "uncertain": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "visible": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 100
+          }
+        }
+      },
+      "guideline": {
+        "accuracy": 1.0,
+        "family_exact_match": 1.0,
+        "macro_f1": 0.6,
+        "n_candidates": 140,
+        "per_label": {
+          "audible_only": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 20
+          },
+          "depicted": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "referenced_only": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 20
+          },
+          "uncertain": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "visible": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 100
+          }
+        }
+      }
+    },
+    "F09": {
+      "direct": {
+        "accuracy": 0.8833333333333333,
+        "family_exact_match": 0.65,
+        "macro_f1": 0.5575757575757576,
+        "n_candidates": 60,
+        "per_label": {
+          "audible_only": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "depicted": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "referenced_only": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 20
+          },
+          "uncertain": {
+            "precision": 1.0,
+            "recall": 0.65,
+            "f1": 0.787878787878788,
+            "support": 20
+          },
+          "visible": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 20
+          }
+        }
+      },
+      "guideline": {
+        "accuracy": 1.0,
+        "family_exact_match": 1.0,
+        "macro_f1": 0.6,
+        "n_candidates": 60,
+        "per_label": {
+          "audible_only": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "depicted": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "referenced_only": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 20
+          },
+          "uncertain": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 20
+          },
+          "visible": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 20
+          }
+        }
+      }
+    },
+    "F10": {
+      "direct": {
+        "accuracy": 0.8833333333333333,
+        "family_exact_match": 0.3,
+        "macro_f1": 0.2818811520233321,
+        "n_candidates": 120,
+        "per_label": {
+          "audible_only": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "depicted": {
+            "precision": 1.0,
+            "recall": 0.3,
+            "f1": 0.4615384615384615,
+            "support": 20
+          },
+          "referenced_only": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "uncertain": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "visible": {
+            "precision": 0.9009009009009009,
+            "recall": 1.0,
+            "f1": 0.947867298578199,
+            "support": 100
+          }
+        }
+      },
+      "guideline": {
+        "accuracy": 1.0,
+        "family_exact_match": 1.0,
+        "macro_f1": 0.4,
+        "n_candidates": 120,
+        "per_label": {
+          "audible_only": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "depicted": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 20
+          },
+          "referenced_only": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "uncertain": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "visible": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 100
+          }
+        }
+      }
+    }
+  },
+  "leave_one_template_out": {
+    "F01": {
+      "direct": {
+        "accuracy": 0.9448979591836735,
+        "family_exact_match": 0.7444444444444445,
+        "macro_f1": 0.7983512923404901,
+        "n_candidates": 980,
+        "per_label": {
+          "audible_only": {
+            "precision": 1.0,
+            "recall": 0.975,
+            "f1": 0.9873417721518987,
+            "support": 40
+          },
+          "depicted": {
+            "precision": 1.0,
+            "recall": 0.15,
+            "f1": 0.2608695652173913,
+            "support": 40
+          },
+          "referenced_only": {
+            "precision": 0.967741935483871,
+            "recall": 1.0,
+            "f1": 0.9836065573770492,
+            "support": 120
+          },
+          "uncertain": {
+            "precision": 1.0,
+            "recall": 0.65,
+            "f1": 0.787878787878788,
+            "support": 20
+          },
+          "visible": {
+            "precision": 0.9602053915275995,
+            "recall": 0.9842105263157894,
+            "f1": 0.9720597790773229,
+            "support": 760
+          }
+        }
+      },
+      "guideline": {
+        "accuracy": 0.9489795918367347,
+        "family_exact_match": 0.85,
+        "macro_f1": 0.9481688029034612,
+        "n_candidates": 980,
+        "per_label": {
+          "audible_only": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 40
+          },
+          "depicted": {
+            "precision": 0.6666666666666666,
+            "recall": 1.0,
+            "f1": 0.8,
+            "support": 40
+          },
+          "referenced_only": {
+            "precision": 1.0,
+            "recall": 0.9416666666666667,
+            "f1": 0.9699570815450643,
+            "support": 120
+          },
+          "uncertain": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 20
+          },
+          "visible": {
+            "precision": 1.0,
+            "recall": 0.9434210526315789,
+            "f1": 0.970886932972241,
+            "support": 760
+          }
+        }
+      }
+    },
+    "F02": {
+      "direct": {
+        "accuracy": 0.9480392156862745,
+        "family_exact_match": 0.75,
+        "macro_f1": 0.8023176083376287,
+        "n_candidates": 1020,
+        "per_label": {
+          "audible_only": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 20
+          },
+          "depicted": {
+            "precision": 1.0,
+            "recall": 0.15,
+            "f1": 0.2608695652173913,
+            "support": 40
+          },
+          "referenced_only": {
+            "precision": 0.9790209790209791,
+            "recall": 1.0,
+            "f1": 0.989399293286219,
+            "support": 140
+          },
+          "uncertain": {
+            "precision": 1.0,
+            "recall": 0.65,
+            "f1": 0.787878787878788,
+            "support": 20
+          },
+          "visible": {
+            "precision": 0.9621489621489622,
+            "recall": 0.985,
+            "f1": 0.9734403953057443,
+            "support": 800
+          }
+        }
+      },
+      "guideline": {
+        "accuracy": 0.9509803921568627,
+        "family_exact_match": 0.85,
+        "macro_f1": 0.9493483523541327,
+        "n_candidates": 1020,
+        "per_label": {
+          "audible_only": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 20
+          },
+          "depicted": {
+            "precision": 0.6666666666666666,
+            "recall": 1.0,
+            "f1": 0.8,
+            "support": 40
+          },
+          "referenced_only": {
+            "precision": 1.0,
+            "recall": 0.95,
+            "f1": 0.9743589743589743,
+            "support": 140
+          },
+          "uncertain": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 20
+          },
+          "visible": {
+            "precision": 1.0,
+            "recall": 0.94625,
+            "f1": 0.9723827874116892,
+            "support": 800
+          }
+        }
+      }
+    },
+    "F03": {
+      "direct": {
+        "accuracy": 0.9540816326530612,
+        "family_exact_match": 0.7611111111111111,
+        "macro_f1": 0.7995465716671444,
+        "n_candidates": 980,
+        "per_label": {
+          "audible_only": {
+            "precision": 1.0,
+            "recall": 0.975,
+            "f1": 0.9873417721518987,
+            "support": 40
+          },
+          "depicted": {
+            "precision": 1.0,
+            "recall": 0.15,
+            "f1": 0.2608695652173913,
+            "support": 40
+          },
+          "referenced_only": {
+            "precision": 0.967741935483871,
+            "recall": 1.0,
+            "f1": 0.9836065573770492,
+            "support": 120
+          },
+          "uncertain": {
+            "precision": 1.0,
+            "recall": 0.65,
+            "f1": 0.787878787878788,
+            "support": 20
+          },
+          "visible": {
+            "precision": 0.9606598984771574,
+            "recall": 0.9960526315789474,
+            "f1": 0.9780361757105943,
+            "support": 760
+          }
+        }
+      },
+      "guideline": {
+        "accuracy": 0.976530612244898,
+        "family_exact_match": 0.8833333333333333,
+        "macro_f1": 0.9562259302500964,
+        "n_candidates": 980,
+        "per_label": {
+          "audible_only": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 40
+          },
+          "depicted": {
+            "precision": 0.6666666666666666,
+            "recall": 1.0,
+            "f1": 0.8,
+            "support": 40
+          },
+          "referenced_only": {
+            "precision": 1.0,
+            "recall": 0.9916666666666667,
+            "f1": 0.99581589958159,
+            "support": 120
+          },
+          "uncertain": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 20
+          },
+          "visible": {
+            "precision": 1.0,
+            "recall": 0.9710526315789474,
+            "f1": 0.9853137516688919,
+            "support": 760
+          }
+        }
+      }
+    },
+    "F04": {
+      "direct": {
+        "accuracy": 0.9448979591836735,
+        "family_exact_match": 0.7444444444444445,
+        "macro_f1": 0.7983512923404901,
+        "n_candidates": 980,
+        "per_label": {
+          "audible_only": {
+            "precision": 1.0,
+            "recall": 0.975,
+            "f1": 0.9873417721518987,
+            "support": 40
+          },
+          "depicted": {
+            "precision": 1.0,
+            "recall": 0.15,
+            "f1": 0.2608695652173913,
+            "support": 40
+          },
+          "referenced_only": {
+            "precision": 0.967741935483871,
+            "recall": 1.0,
+            "f1": 0.9836065573770492,
+            "support": 120
+          },
+          "uncertain": {
+            "precision": 1.0,
+            "recall": 0.65,
+            "f1": 0.787878787878788,
+            "support": 20
+          },
+          "visible": {
+            "precision": 0.9602053915275995,
+            "recall": 0.9842105263157894,
+            "f1": 0.9720597790773229,
+            "support": 760
+          }
+        }
+      },
+      "guideline": {
+        "accuracy": 0.9520408163265306,
+        "family_exact_match": 0.8555555555555555,
+        "macro_f1": 0.9493275081916055,
+        "n_candidates": 980,
+        "per_label": {
+          "audible_only": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 40
+          },
+          "depicted": {
+            "precision": 0.6666666666666666,
+            "recall": 1.0,
+            "f1": 0.8,
+            "support": 40
+          },
+          "referenced_only": {
+            "precision": 1.0,
+            "recall": 0.95,
+            "f1": 0.9743589743589743,
+            "support": 120
+          },
+          "uncertain": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 20
+          },
+          "visible": {
+            "precision": 1.0,
+            "recall": 0.9460526315789474,
+            "f1": 0.9722785665990534,
+            "support": 760
+          }
+        }
+      }
+    },
+    "F05": {
+      "direct": {
+        "accuracy": 0.946,
+        "family_exact_match": 0.7444444444444445,
+        "macro_f1": 0.7984928514078626,
+        "n_candidates": 1000,
+        "per_label": {
+          "audible_only": {
+            "precision": 1.0,
+            "recall": 0.975,
+            "f1": 0.9873417721518987,
+            "support": 40
+          },
+          "depicted": {
+            "precision": 1.0,
+            "recall": 0.15,
+            "f1": 0.2608695652173913,
+            "support": 40
+          },
+          "referenced_only": {
+            "precision": 0.967741935483871,
+            "recall": 1.0,
+            "f1": 0.9836065573770492,
+            "support": 120
+          },
+          "uncertain": {
+            "precision": 1.0,
+            "recall": 0.65,
+            "f1": 0.787878787878788,
+            "support": 20
+          },
+          "visible": {
+            "precision": 0.9612015018773467,
+            "recall": 0.9846153846153847,
+            "f1": 0.9727675744141862,
+            "support": 780
+          }
+        }
+      },
+      "guideline": {
+        "accuracy": 0.95,
+        "family_exact_match": 0.85,
+        "macro_f1": 0.9483223325911487,
+        "n_candidates": 1000,
+        "per_label": {
+          "audible_only": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 40
+          },
+          "depicted": {
+            "precision": 0.6666666666666666,
+            "recall": 1.0,
+            "f1": 0.8,
+            "support": 40
+          },
+          "referenced_only": {
+            "precision": 1.0,
+            "recall": 0.9416666666666667,
+            "f1": 0.9699570815450643,
+            "support": 120
+          },
+          "uncertain": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 20
+          },
+          "visible": {
+            "precision": 1.0,
+            "recall": 0.9448717948717948,
+            "f1": 0.971654581410679,
+            "support": 780
+          }
+        }
+      }
+    },
+    "F06": {
+      "direct": {
+        "accuracy": 0.9653061224489796,
+        "family_exact_match": 0.8555555555555555,
+        "macro_f1": 0.8415065948079464,
+        "n_candidates": 980,
+        "per_label": {
+          "audible_only": {
+            "precision": 1.0,
+            "recall": 0.975,
+            "f1": 0.9873417721518987,
+            "support": 40
+          },
+          "depicted": {
+            "precision": 1.0,
+            "recall": 0.3,
+            "f1": 0.4615384615384615,
+            "support": 20
+          },
+          "referenced_only": {
+            "precision": 0.9722222222222222,
+            "recall": 1.0,
+            "f1": 0.9859154929577464,
+            "support": 140
+          },
+          "uncertain": {
+            "precision": 1.0,
+            "recall": 0.65,
+            "f1": 0.787878787878788,
+            "support": 20
+          },
+          "visible": {
+            "precision": 0.9855072463768116,
+            "recall": 0.9842105263157894,
+            "f1": 0.9848584595128373,
+            "support": 760
+          }
+        }
+      },
+      "guideline": {
+        "accuracy": 0.9693877551020408,
+        "family_exact_match": 0.9611111111111111,
+        "macro_f1": 0.9917989825805457,
+        "n_candidates": 980,
+        "per_label": {
+          "audible_only": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 40
+          },
+          "depicted": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 20
+          },
+          "referenced_only": {
+            "precision": 1.0,
+            "recall": 0.95,
+            "f1": 0.9743589743589743,
+            "support": 140
+          },
+          "uncertain": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 20
+          },
+          "visible": {
+            "precision": 1.0,
+            "recall": 0.9697368421052631,
+            "f1": 0.9846359385437542,
+            "support": 760
+          }
+        }
+      }
+    },
+    "F07": {
+      "direct": {
+        "accuracy": 0.9479591836734694,
+        "family_exact_match": 0.75,
+        "macro_f1": 0.7987512690801487,
+        "n_candidates": 980,
+        "per_label": {
+          "audible_only": {
+            "precision": 1.0,
+            "recall": 0.975,
+            "f1": 0.9873417721518987,
+            "support": 40
+          },
+          "depicted": {
+            "precision": 1.0,
+            "recall": 0.15,
+            "f1": 0.2608695652173913,
+            "support": 40
+          },
+          "referenced_only": {
+            "precision": 0.967741935483871,
+            "recall": 1.0,
+            "f1": 0.9836065573770492,
+            "support": 120
+          },
+          "uncertain": {
+            "precision": 1.0,
+            "recall": 0.65,
+            "f1": 0.787878787878788,
+            "support": 20
+          },
+          "visible": {
+            "precision": 0.9603580562659847,
+            "recall": 0.9881578947368421,
+            "f1": 0.9740596627756162,
+            "support": 760
+          }
+        }
+      },
+      "guideline": {
+        "accuracy": 0.9489795918367347,
+        "family_exact_match": 0.85,
+        "macro_f1": 0.9481688029034612,
+        "n_candidates": 980,
+        "per_label": {
+          "audible_only": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 40
+          },
+          "depicted": {
+            "precision": 0.6666666666666666,
+            "recall": 1.0,
+            "f1": 0.8,
+            "support": 40
+          },
+          "referenced_only": {
+            "precision": 1.0,
+            "recall": 0.9416666666666667,
+            "f1": 0.9699570815450643,
+            "support": 120
+          },
+          "uncertain": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 20
+          },
+          "visible": {
+            "precision": 1.0,
+            "recall": 0.9434210526315789,
+            "f1": 0.970886932972241,
+            "support": 760
+          }
+        }
+      }
+    },
+    "F08": {
+      "direct": {
+        "accuracy": 0.94375,
+        "family_exact_match": 0.7444444444444445,
+        "macro_f1": 0.7957547327819051,
+        "n_candidates": 960,
+        "per_label": {
+          "audible_only": {
+            "precision": 1.0,
+            "recall": 0.95,
+            "f1": 0.9743589743589743,
+            "support": 20
+          },
+          "depicted": {
+            "precision": 1.0,
+            "recall": 0.15,
+            "f1": 0.2608695652173913,
+            "support": 40
+          },
+          "referenced_only": {
+            "precision": 0.967741935483871,
+            "recall": 1.0,
+            "f1": 0.9836065573770492,
+            "support": 120
+          },
+          "uncertain": {
+            "precision": 1.0,
+            "recall": 0.65,
+            "f1": 0.787878787878788,
+            "support": 20
+          },
+          "visible": {
+            "precision": 0.9602053915275995,
+            "recall": 0.9842105263157894,
+            "f1": 0.9720597790773229,
+            "support": 760
+          }
+        }
+      },
+      "guideline": {
+        "accuracy": 0.9479166666666666,
+        "family_exact_match": 0.85,
+        "macro_f1": 0.9481688029034612,
+        "n_candidates": 960,
+        "per_label": {
+          "audible_only": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 20
+          },
+          "depicted": {
+            "precision": 0.6666666666666666,
+            "recall": 1.0,
+            "f1": 0.8,
+            "support": 40
+          },
+          "referenced_only": {
+            "precision": 1.0,
+            "recall": 0.9416666666666667,
+            "f1": 0.9699570815450643,
+            "support": 120
+          },
+          "uncertain": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 20
+          },
+          "visible": {
+            "precision": 1.0,
+            "recall": 0.9434210526315789,
+            "f1": 0.970886932972241,
+            "support": 760
+          }
+        }
+      }
+    },
+    "F09": {
+      "direct": {
+        "accuracy": 0.9548076923076924,
+        "family_exact_match": 0.7833333333333333,
+        "macro_f1": 0.6413017778898211,
+        "n_candidates": 1040,
+        "per_label": {
+          "audible_only": {
+            "precision": 1.0,
+            "recall": 0.975,
+            "f1": 0.9873417721518987,
+            "support": 40
+          },
+          "depicted": {
+            "precision": 1.0,
+            "recall": 0.15,
+            "f1": 0.2608695652173913,
+            "support": 40
+          },
+          "referenced_only": {
+            "precision": 0.967741935483871,
+            "recall": 1.0,
+            "f1": 0.9836065573770492,
+            "support": 120
+          },
+          "uncertain": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "visible": {
+            "precision": 0.9639115250291036,
+            "recall": 0.9857142857142858,
+            "f1": 0.9746909947027663,
+            "support": 840
+          }
+        }
+      },
+      "guideline": {
+        "accuracy": 0.9519230769230769,
+        "family_exact_match": 0.85,
+        "macro_f1": 0.748737903786105,
+        "n_candidates": 1040,
+        "per_label": {
+          "audible_only": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 40
+          },
+          "depicted": {
+            "precision": 0.6666666666666666,
+            "recall": 1.0,
+            "f1": 0.8,
+            "support": 40
+          },
+          "referenced_only": {
+            "precision": 1.0,
+            "recall": 0.9416666666666667,
+            "f1": 0.9699570815450643,
+            "support": 120
+          },
+          "uncertain": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "visible": {
+            "precision": 1.0,
+            "recall": 0.9488095238095238,
+            "f1": 0.9737324373854612,
+            "support": 840
+          }
+        }
+      }
+    },
+    "F10": {
+      "direct": {
+        "accuracy": 0.9591836734693877,
+        "family_exact_match": 0.8222222222222222,
+        "macro_f1": 0.7501438865585027,
+        "n_candidates": 980,
+        "per_label": {
+          "audible_only": {
+            "precision": 1.0,
+            "recall": 0.975,
+            "f1": 0.9873417721518987,
+            "support": 40
+          },
+          "depicted": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 20
+          },
+          "referenced_only": {
+            "precision": 0.9929078014184397,
+            "recall": 1.0,
+            "f1": 0.9964412811387899,
+            "support": 140
+          },
+          "uncertain": {
+            "precision": 1.0,
+            "recall": 0.65,
+            "f1": 0.787878787878788,
+            "support": 20
+          },
+          "visible": {
+            "precision": 0.9739583333333334,
+            "recall": 0.9842105263157894,
+            "f1": 0.9790575916230367,
+            "support": 760
+          }
+        }
+      },
+      "guideline": {
+        "accuracy": 0.9489795918367347,
+        "family_exact_match": 0.85,
+        "macro_f1": 0.9223825147995764,
+        "n_candidates": 980,
+        "per_label": {
+          "audible_only": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 40
+          },
+          "depicted": {
+            "precision": 0.5,
+            "recall": 1.0,
+            "f1": 0.6666666666666666,
+            "support": 20
+          },
+          "referenced_only": {
+            "precision": 1.0,
+            "recall": 0.95,
+            "f1": 0.9743589743589743,
+            "support": 140
+          },
+          "uncertain": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 20
+          },
+          "visible": {
+            "precision": 1.0,
+            "recall": 0.9434210526315789,
+            "f1": 0.970886932972241,
+            "support": 760
+          }
+        }
+      }
+    }
+  },
+  "corpus_checks": {
+    "literal_naturalness_flags": [
+      {
+        "scene_id": "SYN_F01_03_1",
+        "template_id": "F01",
+        "pattern": "一把录音笔",
+        "text": "内景 办公室 日。许站在桌旁。桌上放着一把录音笔。"
+      },
+      {
+        "scene_id": "SYN_F01_03_2",
+        "template_id": "F01",
+        "pattern": "一把录音笔",
+        "text": "内景 办公室 日。许站在桌旁，说：“桌上昨天放着一把录音笔，今天已经拿走了。”"
+      },
+      {
+        "scene_id": "SYN_F01_06_1",
+        "template_id": "F01",
+        "pattern": "一把硬币",
+        "text": "内景 办公室 日。苏站在桌旁。桌上放着一把硬币。"
+      },
+      {
+        "scene_id": "SYN_F01_06_2",
+        "template_id": "F01",
+        "pattern": "一把硬币",
+        "text": "内景 办公室 日。苏站在桌旁，说：“桌上昨天放着一把硬币，今天已经拿走了。”"
+      },
+      {
+        "scene_id": "SYN_F01_16_1",
+        "template_id": "F01",
+        "pattern": "一把U盘",
+        "text": "内景 办公室 日。温言站在桌旁。桌上放着一把U盘。"
+      },
+      {
+        "scene_id": "SYN_F01_16_2",
+        "template_id": "F01",
+        "pattern": "一把U盘",
+        "text": "内景 办公室 日。温言站在桌旁，说：“桌上昨天放着一把U盘，今天已经拿走了。”"
+      },
+      {
+        "scene_id": "SYN_F01_18_1",
+        "template_id": "F01",
+        "pattern": "一把工作证",
+        "text": "内景 办公室 日。严冬站在桌旁。桌上放着一把工作证。"
+      },
+      {
+        "scene_id": "SYN_F01_18_2",
+        "template_id": "F01",
+        "pattern": "一把工作证",
+        "text": "内景 办公室 日。严冬站在桌旁，说：“桌上昨天放着一把工作证，今天已经拿走了。”"
+      },
+      {
+        "scene_id": "SYN_F07_01_1",
+        "template_id": "F07",
+        "pattern": "一匹黑狗",
+        "text": "外景 草地 日。周牵着一匹黑狗走向围栏。"
+      },
+      {
+        "scene_id": "SYN_F07_01_2",
+        "template_id": "F07",
+        "pattern": "一匹黑狗",
+        "text": "内景 客厅 夜。电视关闭着。周说：“刚才的节目里有一匹黑狗。”"
+      },
+      {
+        "scene_id": "SYN_F07_02_1",
+        "template_id": "F07",
+        "pattern": "一匹灰兔",
+        "text": "外景 草地 日。陈牵着一匹灰兔走向围栏。"
+      },
+      {
+        "scene_id": "SYN_F07_02_2",
+        "template_id": "F07",
+        "pattern": "一匹灰兔",
+        "text": "内景 客厅 夜。电视关闭着。陈说：“刚才的节目里有一匹灰兔。”"
+      },
+      {
+        "scene_id": "SYN_F07_03_1",
+        "template_id": "F07",
+        "pattern": "一匹花猫",
+        "text": "外景 草地 日。许牵着一匹花猫走向围栏。"
+      },
+      {
+        "scene_id": "SYN_F07_03_2",
+        "template_id": "F07",
+        "pattern": "一匹花猫",
+        "text": "内景 客厅 夜。电视关闭着。许说：“刚才的节目里有一匹花猫。”"
+      }
+    ],
+    "scope": "Non-exhaustive literal classifier screening, not human validation or an estimated corpus error rate.",
+    "duplicate_text_groups": [
+      [
+        {
+          "scene_id": "SYN_F09_00_1",
+          "split": "train"
+        },
+        {
+          "scene_id": "SYN_F09_01_1",
+          "split": "train"
+        },
+        {
+          "scene_id": "SYN_F09_02_1",
+          "split": "train"
+        },
+        {
+          "scene_id": "SYN_F09_03_1",
+          "split": "train"
+        },
+        {
+          "scene_id": "SYN_F09_04_1",
+          "split": "train"
+        },
+        {
+          "scene_id": "SYN_F09_05_1",
+          "split": "train"
+        },
+        {
+          "scene_id": "SYN_F09_06_1",
+          "split": "train"
+        },
+        {
+          "scene_id": "SYN_F09_07_1",
+          "split": "train"
+        },
+        {
+          "scene_id": "SYN_F09_08_1",
+          "split": "train"
+        },
+        {
+          "scene_id": "SYN_F09_09_1",
+          "split": "train"
+        },
+        {
+          "scene_id": "SYN_F09_10_1",
+          "split": "train"
+        },
+        {
+          "scene_id": "SYN_F09_11_1",
+          "split": "train"
+        },
+        {
+          "scene_id": "SYN_F09_12_1",
+          "split": "dev"
+        },
+        {
+          "scene_id": "SYN_F09_13_1",
+          "split": "dev"
+        },
+        {
+          "scene_id": "SYN_F09_14_1",
+          "split": "dev"
+        },
+        {
+          "scene_id": "SYN_F09_15_1",
+          "split": "dev"
+        },
+        {
+          "scene_id": "SYN_F09_16_1",
+          "split": "test"
+        },
+        {
+          "scene_id": "SYN_F09_17_1",
+          "split": "test"
+        },
+        {
+          "scene_id": "SYN_F09_18_1",
+          "split": "test"
+        },
+        {
+          "scene_id": "SYN_F09_19_1",
+          "split": "test"
+        }
+      ]
+    ]
+  },
+  "paired_evidence_ci": {
+    "base_guideline_minus_direct": {
+      "iterations": 10000,
+      "seed": 20260917,
+      "unit": "paired families stratified by template",
+      "conditioning": "fixed predictions and construction inventory",
+      "character_f1": {
+        "difference": 0.160644492715278,
+        "ci95": [
+          0.13927470057852834,
+          0.18260104329482318
+        ]
+      },
+      "exact_span_hit_rate": {
+        "difference": 0.2545454545454545,
+        "ci95": [
+          0.23636363636363636,
+          0.2727272727272727
+        ]
+      }
+    },
+    "holdout_guideline_minus_direct": {
+      "iterations": 10000,
+      "seed": 20260917,
+      "unit": "paired families stratified by template",
+      "conditioning": "fixed predictions and construction inventory",
+      "character_f1": {
+        "difference": -0.03701395357045174,
+        "ci95": [
+          -0.04994094814791651,
+          -0.024669585601195112
+        ]
+      },
+      "exact_span_hit_rate": {
+        "difference": -0.04727272727272727,
+        "ci95": [
+          -0.060909090909090906,
+          -0.03363636363636364
+        ]
+      }
+    }
+  },
+  "standard_without_f09": {
+    "direct": {
+      "n_scenes": 72,
+      "n_candidates": 208,
+      "accuracy": 0.4375,
+      "family_exact_match": 0.0,
+      "supported_label_macro_f1": 0.41935078946852755,
+      "n_supported_labels": 4
+    },
+    "guideline": {
+      "n_scenes": 72,
+      "n_candidates": 208,
+      "accuracy": 0.6634615384615384,
+      "family_exact_match": 0.08333333333333333,
+      "supported_label_macro_f1": 0.5523842023842024,
+      "n_supported_labels": 4
+    },
+    "qlora_s17_direct": {
+      "n_scenes": 72,
+      "n_candidates": 208,
+      "accuracy": 1.0,
+      "family_exact_match": 1.0,
+      "supported_label_macro_f1": 1.0,
+      "n_supported_labels": 4
+    },
+    "qlora_s17_guideline": {
+      "n_scenes": 72,
+      "n_candidates": 208,
+      "accuracy": 0.9615384615384616,
+      "family_exact_match": 0.7777777777777778,
+      "supported_label_macro_f1": 0.8742606790799562,
+      "n_supported_labels": 4
+    },
+    "qlora_s29_direct": {
+      "n_scenes": 72,
+      "n_candidates": 208,
+      "accuracy": 1.0,
+      "family_exact_match": 1.0,
+      "supported_label_macro_f1": 1.0,
+      "n_supported_labels": 4
+    },
+    "qlora_s29_guideline": {
+      "n_scenes": 72,
+      "n_candidates": 208,
+      "accuracy": 0.9230769230769231,
+      "family_exact_match": 0.5555555555555556,
+      "supported_label_macro_f1": 0.7565117613310384,
+      "n_supported_labels": 4
+    },
+    "qlora_s43_direct": {
+      "n_scenes": 72,
+      "n_candidates": 208,
+      "accuracy": 1.0,
+      "family_exact_match": 1.0,
+      "supported_label_macro_f1": 1.0,
+      "n_supported_labels": 4
+    },
+    "qlora_s43_guideline": {
+      "n_scenes": 72,
+      "n_candidates": 208,
+      "accuracy": 0.9519230769230769,
+      "family_exact_match": 0.7222222222222222,
+      "supported_label_macro_f1": 0.843091847911125,
+      "n_supported_labels": 4
+    }
+  },
+  "metadata": {
+    "reference": "programmatic controlled labels",
+    "holdout_seed": 17,
+    "evidence": "Strict scene gate; candidate-macro character offset overlap, union over all exact occurrences; missing outputs score zero. Post-hoc localization diagnostic, not causal faithfulness.",
+    "exact_span_hit_rate": "Original evidence_overlap_recall: at least one identical quoted string in reference and prediction; not partial-span overlap.",
+    "leave_one_template_out": "Aggregation sensitivity only; no retraining; retains the original five-label macro-F1 definition."
+  }
+}

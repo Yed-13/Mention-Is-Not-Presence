@@ -1,0 +1,16 @@
+{
+  "model_id": "Qwen/Qwen3-4B",
+  "model_revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "platform": "Windows-11-10.0.26100-SP0",
+  "python": "3.12.10",
+  "packages": {
+    "torch": "2.8.0+cu128",
+    "transformers": "5.17.0",
+    "peft": "0.21.0",
+    "trl": "1.13.0",
+    "datasets": "5.0.1",
+    "accelerate": "1.15.0",
+    "bitsandbytes": "0.50.2"
+  },
+  "purpose": "New-platform replication; original results remain unchanged"
+}

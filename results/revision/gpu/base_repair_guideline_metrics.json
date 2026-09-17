@@ -1,0 +1,98 @@
+{
+  "task": "closed_set_scene_realization_state",
+  "reference_tier": "programmatic_synthetic_reference",
+  "n_candidates": 1100,
+  "accuracy": 0.6845454545454546,
+  "macro_f1": 0.6069684793429548,
+  "schema_valid_scene_rate": 0.995,
+  "malformed_or_missing_scene_rate": 0.0050000000000000044,
+  "evidence_exact_match": 0.35,
+  "evidence_overlap_recall": 0.3527272727272727,
+  "per_label": {
+    "audible_only": {
+      "precision": 0.2777777777777778,
+      "recall": 1.0,
+      "f1": 0.4347826086956522,
+      "support": 40
+    },
+    "depicted": {
+      "precision": 0.13821138211382114,
+      "recall": 0.85,
+      "f1": 0.23776223776223776,
+      "support": 40
+    },
+    "referenced_only": {
+      "precision": 0.8616352201257862,
+      "recall": 0.9785714285714285,
+      "f1": 0.9163879598662207,
+      "support": 140
+    },
+    "uncertain": {
+      "precision": 0.7222222222222222,
+      "recall": 0.65,
+      "f1": 0.6842105263157895,
+      "support": 20
+    },
+    "visible": {
+      "precision": 1.0,
+      "recall": 0.6151162790697674,
+      "f1": 0.761699064074874,
+      "support": 860
+    }
+  },
+  "confusion": {
+    "audible_only": {
+      "audible_only": 40,
+      "depicted": 0,
+      "referenced_only": 0,
+      "uncertain": 0,
+      "visible": 0,
+      "missing": 0
+    },
+    "depicted": {
+      "audible_only": 0,
+      "depicted": 34,
+      "referenced_only": 5,
+      "uncertain": 1,
+      "visible": 0,
+      "missing": 0
+    },
+    "referenced_only": {
+      "audible_only": 1,
+      "depicted": 2,
+      "referenced_only": 137,
+      "uncertain": 0,
+      "visible": 0,
+      "missing": 0
+    },
+    "uncertain": {
+      "audible_only": 0,
+      "depicted": 0,
+      "referenced_only": 7,
+      "uncertain": 13,
+      "visible": 0,
+      "missing": 0
+    },
+    "visible": {
+      "audible_only": 103,
+      "depicted": 210,
+      "referenced_only": 10,
+      "uncertain": 4,
+      "visible": 529,
+      "missing": 4
+    }
+  },
+  "family_exact_match": 0.125,
+  "validation_errors": [
+    {
+      "scene_id": "R2_SYN_F02_11_1",
+      "candidate_id": "linqing",
+      "error": "invalid_evidence"
+    },
+    {
+      "scene_id": "R2_SYN_F05_08_1",
+      "candidate_id": "assistant",
+      "error": "invalid_evidence"
+    }
+  ]
+}
